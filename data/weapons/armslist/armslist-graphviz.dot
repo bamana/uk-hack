@@ -1,0 +1,64 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="test-extractions.json"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="Firearm1"];
+n3[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n4[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n5[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n6[style="filled",color="white",fillcolor="lightgray",label="CreativeWork1"];
+n7[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n8[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n9[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n10[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n11[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n12[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n13[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n14[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n15[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n16[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n17[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n18[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n19[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n20[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n21[style="filled",color="white",fillcolor="lightgray",label="Offer1"];
+n22[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n23[style="filled",color="white",fillcolor="lightgray",label="Place1"];
+n24[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n25[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n26[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n27[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n28[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+n29[style="filled",color="white",fillcolor="lightgray",label="Role1"];
+n30[shape="plaintext",style="filled",fillcolor="gold",label="extract"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="caliber"]
+n2 -> n4[color="brown",fontcolor="black",label="firearmAction"]
+n2 -> n5[color="brown",fontcolor="black",label="category"]
+n6 -> n7[color="brown",fontcolor="black",label="htmlMarkupFragment"]
+n6 -> n8[color="brown",fontcolor="black",label="htmlMarkupFragment"]
+n6 -> n9[color="brown",fontcolor="black",label="htmlMarkupFragment"]
+n6 -> n10[color="brown",fontcolor="black",label="htmlMarkupFragment"]
+n6 -> n11[color="brown",fontcolor="black",label="htmlMarkupFragment"]
+n6 -> n12[color="brown",fontcolor="black",label="htmlMarkupFragment"]
+n6 -> n13[color="brown",fontcolor="black",label="identifier"]
+n6 -> n14[color="brown",fontcolor="black",label="urlFragment"]
+n6 -> n15[color="brown",fontcolor="black",label="urlFragment"]
+n6 -> n16[color="brown",fontcolor="black",label="urlFragment"]
+n6 -> n17[color="brown",fontcolor="black",label="urlFragment"]
+n6 -> n18[color="brown",fontcolor="black",label="urlFragment"]
+n6 -> n19[color="brown",fontcolor="black",label="urlFragment"]
+n6 -> n20[color="brown",fontcolor="black",label="urlFragment"]
+n21 -> n22[color="brown",fontcolor="black",label="availabilityStarts"]
+n21 -> n23[color="brown",fontcolor="black",label="availableAtOrFrom"]
+n21 -> n24[color="brown",fontcolor="black",label="category"]
+n21 -> n25[color="brown",fontcolor="black",label="description"]
+n21 -> n2[color="brown",fontcolor="black",label="itemOffered"]
+n21 -> n6[color="brown",fontcolor="black",label="mainEntityOfPage"]
+n21 -> n26[color="brown",fontcolor="black",label="name"]
+n21 -> n27[color="brown",fontcolor="black",label="price"]
+n23 -> n28[color="brown",fontcolor="black",label="name"]
+n29 -> n30[color="brown",fontcolor="black",label="startDate"]
+}
