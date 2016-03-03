@@ -1,0 +1,917 @@
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+    ARMSLIST - For Sale:  Custom built Complete AR-15 Upper (minus BCG/Bipod/optics)
+</title>
+        <link href="https://s3.amazonaws.com/mgm-content/sites/armslist/content/system/favicon.ico" rel="shortcut icon"/>
+        <link rel="stylesheet" href="https://s3.amazonaws.com/mgm-content/static/r131903/gzip/shared/css/bootstrap.css">
+        <link rel="stylesheet" href="https://s3.amazonaws.com/mgm-content/static/r131903/gzip/shared/css/all.css">
+        <link href='//fonts.googleapis.com/css?family=Oswald:400,300%7CLato:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="https://s3.amazonaws.com/mgm-content/static/r131903/gzip/shared/js/jquery.main.js"></script>
+
+        
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        
+        <script type="text/javascript" src="https://s3.amazonaws.com/mgm-content/static/r131903/gzip/shared/scripts/lib/jquery-cookie.js"></script>
+
+        <script type="text/javascript" src="https://s3.amazonaws.com/mgm-content/static/r131903/gzip/shared/scripts/listmill-app.js"></script>
+        <script type="text/javascript" src="https://s3.amazonaws.com/mgm-content/static/r131903/gzip/shared/scripts/jquery-listmill.js"></script>
+        
+
+
+        <script type="text/javascript">
+            var appOptions = {
+                showTermsOnLoad: "true" == "true" ? true : false,
+                showTermsOnLoadTimeout: 0};
+        
+
+            $(function () {
+                if(appOptions.showTermsOnLoad) {
+                    //listmill.app.checkTerms();
+                    //alert("show terms");
+                    checkTerms();
+                    
+                }
+                //listmill.app.themePreview();
+                //listmill.datatations.initialize();
+            });
+            function checkTerms() {
+                if ((document.cookie.length == 0 || document.cookie.indexOf("terms=agreed") == -1)
+                    && window.location.href.indexOf("/info/terms") == -1
+                    && document.cookie.indexOf("listmill_auth") == -1) {
+                    showTerms();
+                } else
+                    acceptTerms();
+            }
+            function acceptTerms() {
+                var dateStr = "";
+                if (appOptions.showTermsOnLoadTimeout > 0) {
+                    date = new Date();
+                    date.setHours(date.getHours() + appOptions.showTermsOnLoadTimeout);
+                    dateStr = "; expires=" + date.toUTCString();
+                };
+                document.cookie = "terms=agreed" + dateStr + "; path=/";
+
+                $('#termsModal').modal('hide');
+            }
+
+            function showTerms() {
+                //termsModalContainer
+                $.ajax({
+                    url: "/info/termsagreement",
+                    dataType: "html",
+                    success: function (data) {
+                        $("#termsModalContainer").html(data);
+                        /*$("#termsagreement")
+                                .html("<h2>TERMS OF USE</h2>" + data + "<p style='font-size: 7pt; margin-top: 2em;'>* COOKIES MUST BE ENABLED FOR THIS SITE TO WORK.<br />&nbsp;&nbsp;&nbsp;We recommend the use of Google Chrome, Firefox 3.0+, or Internet Explorer 7.0+ for the best browsing experience.</p>")
+                                .dialog({
+                                    closeOnEscape: false,
+                                    modal: true,
+                                    title: "Please read and agree to our Terms of Use:",
+                                    width: Math.min(800, $(window).width() - 30),
+                                    height: Math.min(400, $(window).height() - 30),
+                                    buttons: {
+                                        "I Agree": function () { agreeTerms(); $(this).dialog("close"); },
+                                        "I Do Not Agree": function () { window.location = "http://www.google.com" }
+                                    }
+                                });*/
+                        //$(".ui-dialog-titlebar-close").hide();
+                        $('#termsModal').modal({
+                            backdrop: 'static',
+                            keyboard: false
+                        });
+
+                        $('#termsModal').modal('show');
+                    }});
+                
+            }
+        </script>
+
+        
+    <link rel="stylesheet" href="https://s3.amazonaws.com/mgm-content/static/r131903/gzip/shared/css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300%7COswald:400,700,300' rel='stylesheet' type='text/css'>
+
+
+
+        <!-- -->
+
+        <!--                <style type="text/css">
+        .footer-social {  width: 100px;  margin-right: 0px !important;}
+        </style>
+-->
+        <style type="text/css">
+            #h3Overrides h3 {
+                margin-top: 0px;
+                color: #000000;
+            }
+        </style>
+    </head>
+
+
+    <body style="-webkit-overflow-scrolling: touch;">
+        <div id="termsModal" class="modal fade" role="dialog" style="color: #655D5B !important;">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 style="color: #655d5b">TERMS OF USE</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div id="termsModalContainer"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" onclick="acceptTerms()">Accept</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="filterByModal" class="modal fade" role="dialog" style="color: #655D5B !important;">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 style="color: #655d5b">Filter By</h4>
+                </div>
+                <div class="modal-body">
+                    <div id="filterByContainer"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="contactSellerEmailModal" class="modal fade" role="dialog" style="color: #655D5B !important;">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 style="color: #655d5b">Contact Seller</h4>
+                </div>
+                <div class="modal-body">
+                    <div id="messageSellerContainer"></div>
+                </div>
+                <div class="modal-footer">
+                    <button id="contactFormSubmitBtn" type="button" class="pull-left btn btn-default" onclick="doMessageSend()">Send</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="searchAlertModal" class="modal fade" role="dialog" style="color: #655D5B !important;">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 style="color: #655d5b">Search Alert</h4>
+                </div>
+                <div class="modal-body">
+                    <div id="searchAlertContainer"></div>
+                </div>
+                <div class="modal-footer">
+                    <button id="searchAlertFormSubmitBtn" type="button" class="pull-left btn btn-default" onclick="createSearchAlert()">Create</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="wrapper">
+        <header id="header" class="navbar-default text-uppercase" role="navigation">
+            <div class="top-holder">
+                <div class="container-fluid">
+                    <button type="button" class="navbar-toggle text-uppercase pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" id="popoverMobileViewMainMenu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="text">Menu</span>
+                    </button>
+                    <div id="popovercontentMobileViewMainMenu" style="display: none;">
+                        <div class="container-fluid">
+                            <div class="row" id="h3Overrides">
+                                <div class="col-md-3 col-sm-6 col-lg-offset-1 col-md-offset-0">
+    <h3 class="text-uppercase">ACCOUNT &amp; LISTINGS </h3>
+    <ul class="nav-footer">
+        <li><a href="//www.armslist.com/accountlogin/new">Account Login</a></li>
+        <li><a href="//www.armslist.com/account/new">New Account</a></li>
+        <li><a href="//www.armslist.com/posts/new">Create a New Listing</a></li>
+        <li><a href="//www.armslist.com/posts/resendactivation">Edit or Remove a Listing</a></li>
+    </ul>
+</div>
+<div class="col-lg-2 col-md-3 col-sm-6">
+    <h3 class="text-uppercase">ABOUT &amp; HELP</h3>
+    <ul class="nav-footer">
+        <li><a href="//www.armslist.com/info/faqs">FAQs</a></li>
+        <li><a href="//www.armslist.com/info/contact">Contact Armslist</a></li>
+        <li><a href="//www.armslist.com/info/privacy">Privacy Policy</a></li>
+        <li><a href="//www.armslist.com/info/terms">Terms of Use</a></li>
+    </ul>
+</div>
+<div class="col-md-3 col-sm-6">
+    <h3 class="text-uppercase">MORE ARMSLIST LINKS </h3>
+    <ul class="nav-footer">
+        <li><a href="http://forum.armslist.com/">Armslist Discussion Forum</a></li>
+        <li><a href="http://armslist.spreadshirt.com/">Armslist T-Shirt Shop</a></li>
+        <li><a href="http://www.armslistlegaldefensefund.com/">Armslist Legal Defense Fund</a></li>
+        <li><a href="//www.armslist.com/info/advertise">Advertising with Armslist</a></li>
+    </ul>
+</div>
+<div class="col-md-3 col-sm-6">
+    <h3 class="text-uppercase">PARTNER SITES</h3>
+    <ul class="nav-footer">
+        <li><a href="http://www.torquelist.com/">Torquelist Vehicle Trader</a></li>
+        <li><a href="http://www.rangemonkey.com/">Range Monkey</a></li>
+        <li><a href="http://www.invictusgearcompany.com/">Invictus Gear </a></li>
+    </ul>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                        $(document).ready(function () {
+
+                            $("#popoverMobileViewMainMenu").popover({
+                                html: true,
+                                container: 'body',
+                                content: function () {
+                                    return $('#popovercontentMobileViewMainMenu').html();
+                                }
+                            });
+
+                            $('html').on('click', function (e) {
+                                if (typeof $(e.target).data('original-title') == 'undefined' &&
+                                    !$(e.target).parents().is('.popover.in') &&
+                                    $(e.target).parent().attr("id") !== "popoverMobileViewMainMenu") {
+                                    $('[data-original-title]').popover('hide');
+                                }
+                            });
+                        });
+
+                    </script>
+
+                    <div class="pull-right align-right">
+<form action="/classifieds/search" class="search-form navbar-form hidden-xs" method="get" role="search">                            <fieldset>
+                                <div class="form-group">
+
+                                    <input type="text" name="search" class="form-control" placeholder="Search listings" value="">
+                                    <input type="hidden" name="location" value="usa" />
+                                    <input type="hidden" name="category" value="all" />
+                                    <input type="hidden" name="posttype" value="7" />
+                                    <input type="hidden" name="ships" value="False" />
+                                </div>
+                                <button type="submit" class="btn btn-default icon-search"></button>
+                            </fieldset>
+</form>                        
+                        <a href="/posts/new" class="btn btn-warning create-btn text-uppercase"><span class="hidden-sm hidden-xs">CREATE A LISTING</span> <i class="icon-pencil"></i> <span class="visible-sm visible-xs">list</span></a>
+
+                        
+<ul class="users-list hidden-xs">
+
+        <li><a href="/account/new">CREATE AN ACCOUNT</a></li>
+        <li><a href="/accountlogin">LOGIN</a></li>
+</ul>
+
+
+                        <button type="button" class="btn btn-warning create-btn text-uppercase visible-xs" onclick="showHideSearchMobile()"><i class="icon-search"></i> <span class="visible-xs">search</span></button>
+                        <script type="text/javascript">
+                            function showHideSearchMobile() {
+                                $("#searchMobileView").fadeToggle();
+                            }
+                        </script>
+                    </div>
+                    <div id="logo" class="pull-left">
+                        <a href="/" title="ARMSLIST - Firearms Classifieds">
+                            <picture>
+                                    <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                    <source srcset="https://s3.amazonaws.com/mgm-content/static/r131903/gzip/shared/images/logo-mobile.png, https://s3.amazonaws.com/mgm-content/static/r131903/gzip/shared/images/logo-mobile@2x.png 2x" media="(max-width: 767px)" />
+                                    <source srcset="https://s3.amazonaws.com/mgm-content/static/r131903/gzip/shared/images/logo-desktop.png, https://s3.amazonaws.com/mgm-content/static/r131903/gzip/shared/images/logo-desktop@2x.png 2x" />
+                                    <!--[if IE 9]></video><![endif]-->
+                                    <img src="https://s3.amazonaws.com/mgm-content/static/r131903/gzip/shared/images/logo-desktop.png" alt="armslist firearms marketplace" width="260" height="66" />
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="alert " id="mainMessageContainer" style="display: none; margin-bottom: 0px;">
+                
+                <div id="mainMessageContainer_Message" style="text-align: center;"></div>
+            </div>
+            
+            <div style="padding: 20px 10px 10px 20px; text-align: center; display: none;" class="hidden-sm hidden-md hidden-lg" id="searchMobileView">
+
+<form action="/classifieds/search" class="search-form" method="get" role="search" style="width: 75% !important;">                    <fieldset>
+                        <div class="form-group">
+                            <input type="text" name="search" class="form-control" placeholder="Search listings" value="">
+                            <input type="hidden" name="location" value="usa" />
+                            <input type="hidden" name="category" value="all" />
+                            <input type="hidden" name="posttype" value="7" />
+                            <input type="hidden" name="ships" value="False" />
+                        </div>
+                        <button type="submit" class="btn btn-default icon-search"></button>
+                    </fieldset>
+</form>                <br />
+
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" style="padding-top: 20px;">
+
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div style='text-align: center; font: 300 16px/19px "Oswald", "Arial", "Helvetica", sans-serif; text-decoration: none; text-transform: uppercase;'>
+                                <a style="color: #e5e0bf; padding-right: 10px; display: inline-block;" href="/classifieds/search?category=handguns&amp;location=usa&amp;posttype=7&amp;ships=False">HANDGUNS <br><i class="icon-handguns"></i></a>
+                                <a style="color: #e5e0bf; padding-right: 10px; display: inline-block;" href="/classifieds/search?category=shotguns&amp;location=usa&amp;posttype=7&amp;ships=False">SHOTGUNS <br><i class="icon-shotguns"></i></a>
+                                <a style="color: #e5e0bf; display: inline-block;" href="/classifieds/search?category=rifles&amp;location=usa&amp;posttype=7&amp;ships=False">RIFLES <br><i class="icon-rifles"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div style='text-align: center; font: 300 16px/19px "Oswald", "Arial", "Helvetica", sans-serif; text-decoration: none; text-transform: uppercase;'>
+                                <a style="color: #e5e0bf; padding-right: 10px; display: inline-block;" href="/classifieds/search?category=firearm-accessories&amp;location=usa&amp;posttype=7&amp;ships=False">ACCESSORIES <br><i class="icon-scope"></i></a>
+                                <a style="color: #e5e0bf; display: inline-block;" href="/classifieds/search?category=outdoors&amp;location=usa&amp;posttype=7&amp;ships=False">GEAR + MORE <br><i class="icon-gear"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <style type="text/css">
+                    .carousel-control.left, .carousel-control.right {
+                        background-image: none;
+                    }
+                </style>
+            </div>
+        </header>
+        
+
+        
+            <main id="main">
+                <div class="container-fluid" style="color: #655D5B;">
+                    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="link-area" style="text-align: center;">
+                
+                    <div id="armsnet_position_9" class="ad" style="height: 90px; width: 728px;"></div>
+                <ul class="pagination" style="">
+                    <li style="padding-left: 0px;">
+                        <a href="/posts/5211892/delaware-rifles-for-sale--cai-c308-rifle" class="prev " style="padding-left: 0px;"><i class="icon-arrow-left"></i>Previous Item</a>
+                                                                    </li>
+                                                                    <li><a href="/posts/4539373/delaware-rifles-for-sale--savage-mark-ii-btvs--22-rifle---never-fired" class="next ">Next Item<i class="icon-arrow-right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="top-holder">
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col-md-6 col-sm-8">
+                                                                <h1>For Sale:  Custom built Complete AR-15 Upper (minus BCG/Bipod/optics)</h1>
+
+
+                                                                <ul class="list" style="padding: 0px;">
+                                                                    <li>
+                                                                        <strong>
+                                                                            Listed In:
+                                                                            <a href="#">Rifles</a>
+                                                                        </strong>
+                                                                    </li>
+                                                                    <li><a href="#" onclick="createFav()" class="btn btn-default"><i class="icon-star"></i> Save to Favorites</a></li>
+
+                                                                </ul>
+                                                                <br />
+                                                                <ul class="list">
+                                                                    <li>
+                                                                        <div class="dropdown">
+                                                                            <a id="dLabel" class="btn btn-default" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                                                <i class="icon-flag"></i>
+                                                                                Flag
+                                                                                <span class="caret"></span>
+                                                                            </a>
+                                                                                <ul class="dropdown-menu" aria-labelledby="dLabel">
+
+                                                                                    <li><a href="#" onclick="flagPost('Are you sure you want to flag this listing as a scam?', '/posts/4866056/flag?type=1')" title="Listing is a scam"><i class="icon-flag"></i>Scam</a></li>
+
+                                                                                    <li><a href="#" onclick="flagPost('Are you sure you want to flag this listing as spam/inappropriate?', '/posts/4866056/flag?type=4')" title="Item has been listed repeatedly or listing is inflamatory or inappropriate for the site"><i class="icon-flag"></i>Spam/Inappropriate</a></li>
+
+                                                                                    <li><a href="#" onclick="flagPost('Are you sure you want to flag this listing as overpriced?', '/posts/4866056/flag?type=3')" title="Item is grossly overpriced"><i class="icon-flag"></i>Over-priced</a></li>
+
+                                                                                    <li><a href="#" onclick="flagPost('Are you sure you want to flag this listing as a vendor listing?', '/posts/4866056/flag?type=5')" title="Listing is not from a private party"><i class="icon-flag"></i>Vendor Listing</a></li>
+
+                                                                                    <li><a href="#" onclick="flagPost('Are you sure you want to flag this listing as sold/unresponsive?', '/posts/4866056/flag?type=6')" title="Seller/Buyer is not responding"><i class="icon-flag"></i>Unresponsive</a></li>
+
+                                                                                    <li><p class="legal-message" style="padding: 5px;">Report illegal firearms activity to 1-800-ATF-GUNS or your local police department.</p></li>
+
+                                                                                </ul>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="dropdown">
+                                                                            <a id="dLabel2" class="btn btn-default" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                                                <i class="icon-share"></i>
+                                                                                Share
+                                                                                <span class="caret"></span>
+                                                                            </a>
+                                                                            <ul class="dropdown-menu" aria-labelledby="dLabel2">
+
+                                                                                <li><a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://www.armslist.com/posts/4866056/delaware-rifles-for-sale--custom-built-complete-ar-15-upper--minus-bcg-bipod-optics-"><i class="icon-share"></i>Facebook</a></li>
+                                                                                <li><a target="_blank" href="mailto:?body=Check out this!%0D%0A http://www.armslist.com/posts/4866056/delaware-rifles-for-sale--custom-built-complete-ar-15-upper--minus-bcg-bipod-optics-"><i class="icon-share"></i>Email</a></li>
+                                                                                <li><a target="_blank" href="http://www.twitter.com/share?url=http://www.armslist.com/posts/4866056/delaware-rifles-for-sale--custom-built-complete-ar-15-upper--minus-bcg-bipod-optics-"><i class="icon-share"></i>Twitter</a></li>
+                                                                                <li><a target="_blank" href="http://www.pinterest.com/pin/create/button/?url=http://www.armslist.com/posts/4866056/delaware-rifles-for-sale--custom-built-complete-ar-15-upper--minus-bcg-bipod-optics-&media=https://s3.amazonaws.com/mgm-content/sites/armslist/uploads/posts/2015/11/16/4866056_01_custom_built_ar_15_upper_recei_640.jpg&description=For+Sale%3a++Custom+built+Complete+AR-15+Upper+(minus+BCG%2fBipod%2foptics)"><i class="icon-share"></i>Pinterest</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-md-4 col-sm-4">
+                                                                <div class="wrap">
+                                                                    <span class="price">
+$ 1,000                                                                    </span>
+                                                                        <a href="#" data-toggle="modal" data-target="#contactSellerEmailModal" onclick=" getMessage(this) " data-href="/posts/4866056/message/new" class="btn btn-default">CONTACT SELLER</a>
+
+                                                                    <script type="text/javascript">
+
+
+
+                                                                    </script>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="container-fluid">
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="gallery-holder">
+                                                                <div class="gallery">
+                                                                    <div class="mask">
+                                                                        <div class="slideset">
+
+                                                                                <div class="item">
+                                                                                    <img class="gallery" src='https://s3.amazonaws.com/mgm-content/sites/armslist/uploads/posts/2015/11/16/4866056_01_custom_built_ar_15_upper_recei_640.jpg' alt="" width="540" />
+                                                                                </div>
+                                                                                <div class="item">
+                                                                                    <img class="gallery" src='https://s3.amazonaws.com/mgm-content/sites/armslist/uploads/posts/2015/11/16/4866056_02_custom_built_complete_ar_15_up_640.jpg' alt="" width="540" />
+                                                                                </div>
+                                                                                <div class="item">
+                                                                                    <img class="gallery" src='https://s3.amazonaws.com/mgm-content/sites/armslist/uploads/posts/2015/11/16/4866056_03_custom_built_complete_ar_15_up_640.jpg' alt="" width="540" />
+                                                                                </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="pagination-gallery">
+                                                                    <div class="pagination-mask">
+                                                                        <div class="pagination-slideset">
+                                                                                <div class="item">
+                                                                                    <img class="gallery" src='https://s3.amazonaws.com/mgm-content/sites/armslist/uploads/posts/2015/11/16/4866056_01_custom_built_ar_15_upper_recei_640.jpg' alt="" width="80" />
+                                                                                </div>
+                                                                                <div class="item">
+                                                                                    <img class="gallery" src='https://s3.amazonaws.com/mgm-content/sites/armslist/uploads/posts/2015/11/16/4866056_02_custom_built_complete_ar_15_up_640.jpg' alt="" width="80" />
+                                                                                </div>
+                                                                                <div class="item">
+                                                                                    <img class="gallery" src='https://s3.amazonaws.com/mgm-content/sites/armslist/uploads/posts/2015/11/16/4866056_03_custom_built_complete_ar_15_up_640.jpg' alt="" width="80" />
+                                                                                </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="text-holder">
+                                                                <p>
+                                                                    <div class="custom-header"></div>
+                                                                    <div class="postContent">
+I assembled this upper from scratch along the lines of the Mk12 platform. Put a lot of thought and research into it. I have all the papers to back up these specs: VLTOR LOW PROFILE GAS BLOCK-STAINLESS LANCER SYSTEMS FREE FLOATING, CARBON FIBER HANDGUARD, RIFLE LENGTH with 3 rail segments. (2-2 inch segments, 1-4 inch segment) WILSON COMBAT MATCH GRADE STAINLESS SPR BARREL, 5.56 NATO, 18&rdquo; 1-7 TWIST DANIEL DEFENSE MUZZLE CLIME MITIGATOR EXTENDED &frac12;-28 VOODOO INNOVATIONS LIFECOAT RIFLE LENGTH GAS TUBE WHITE OAK ARMS A4 UPPER RECIEVER WITH M4 RAMPS The barrel has less than 1000 rounds through it. The only real defects are where I had to shave off some metal on the rear of the receiver so it would fit on my lower as well as some very minor wear. BIPOD, OPTICS/MOUNT AND BCG not included.                                                                    </div>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-8">
+                                                            <div class="info-holder">
+                                                                <strong class="title">
+                                                                        <i class="icon-user"></i>
+Private Party                                                                    Details
+                                                                </strong>
+
+
+                                                                    <time datetime="2015-08-18" style="padding-bottom: 10px;">Registered on 11/19/2015</time>
+
+                                                                <a class="more" href="/classifieds/search?relatedto=4866056&location=usa">Listings by this user</a>
+
+
+                                                                <ul class="location">
+                                                                    <li>
+                                                                        <div style="text-transform: uppercase;" class="col-sm-12 col-md-5"><i class="icon-location"></i> Location:</div>
+                                                                        <div class="col-sm-12 col-md-7">
+Dover, Delaware, United States                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div style="text-transform: uppercase;" class="col-sm-12 col-md-5"><i class="icon-shippers"></i> Shipping:</div>
+                                                                        <div class="col-sm-12 col-md-7">No</div>
+                                                                    </li>
+                                                                </ul>
+                                                                <ul class="category">
+                                                                    <li>
+                                                                        <span>CATEGORY</span>
+                                                                        <span>Rifles</span>
+                                                                    </li>
+                                                                            <li>
+                                                                                <span style="text-transform: uppercase;">Caliber</span>
+                                                                                <span>
+223/5.56 NATO                                                                                </span>
+                                                                            </li>
+                                                                            <li>
+                                                                                <span style="text-transform: uppercase;">Action</span>
+                                                                                <span>
+Semi-automatic                                                                                </span>
+                                                                            </li>
+                                                                            <li>
+                                                                                <span style="text-transform: uppercase;">Firearm Type</span>
+                                                                                <span>
+Rifle                                                                                </span>
+                                                                            </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-2 col-sm-4 hidden-xs">
+                                                            
+                                                                <div id="armsnet_position_6" class="ad" style="height: 600px; width: 300px;"></div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sponsor-frame">
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col-xs-12 hidden-xs">
+                                                                <div class="heading">
+                                                                    <h1>
+                                                                        <strong class="img">
+                                                                            <img src="https://s3.amazonaws.com/mgm-content/static/r131903/gzip/shared/images/logo.png" alt="">
+                                                                            <span>MEDIA CHANNEL</span>
+                                                                        </strong>
+
+                                                                    </h1>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xs-12">
+                                                                <div class="box">
+                                                                             <ul>
+                                                                                 <li class="hidden-xs">
+                                                                                     
+                                                                                     <a href="#">
+                                                                                         <!-- AD GOES HERE-->
+                                                                                         
+                                                                                     </a>
+                                                                                 </li>
+                                                                                 <li class="hidden-xs">
+                                                                                     <a href="#">
+                                                                                         <!-- pull the free link footer content here -->
+                                                                                         
+                                                                                         <iframe width="560" height="315" src="https://www.youtube.com/embed/xYRIZjU02Ro" frameborder="0" allowfullscreen></iframe>
+                                                                                     </a>
+                                                                                 </li>
+                                                                                 <li class="hidden-xs">
+                                                                                     <h2>SPONSORED</h2>
+                                                                                     <a href="#">
+                                                                                         <!-- AD GOES HERE-->
+                                                                                         
+                                                                                         
+                                                                                     </a>
+                                                                                 </li>
+                                                                             </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xs-12">
+                                                                <div class="info-time">
+                                                                    <span class="date">Listed On: Wednesday, March 2, 2016</span>
+                                                                    <span class="user-id">post id:  4866056</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <script type="text/javascript">
+                                                    var msgContainer;
+                                                    var msgContainerMsg;
+                                                    $(document).ready(function() {
+                                                        msgContainer = $("#mainMessageContainer");
+                                                        msgContainerMsg = $("#mainMessageContainer_Message");
+                                                    });
+
+                                                    function clearMSG() {
+                                                        msgContainer.removeClass("alert-error alert-success alert-warning alert-info");
+                                                    }
+
+                                                    function flagPost(msg, url) {
+
+                                                        var r = confirm(msg);
+                                                        if (r === true) {
+                                                            $.ajax({
+                                                                url: url,
+                                                                data: {},
+                                                                type: "POST",
+                                                                dataType: "json",
+                                                                success: function (data) {
+                                                                    if (data.Parts != null && data.Parts.length > 0) {
+                                                                        for (var i = 0; i < data.Parts.length; i++) {
+                                                                            var part = data.Parts[i];
+                                                                            switch (part.Type) {
+                                                                                case "Message":
+                                                                                    clearMSG();
+                                                                                    msgContainer.addClass("alert-success");
+                                                                                    msgContainerMsg.html(part.Message);
+                                                                                    msgContainer.show();
+                                                                                    //listmill.app.showMessage(part.MessageType, part.Message);
+                                                                                    break;
+                                                                                case "Data":
+                                                                                    if (part.Data.refresh) {
+                                                                                        window.location = window.location;
+                                                                                    }
+                                                                                    break;
+                                                                            };
+
+                                                                        }
+                                                                    }
+                                                                }
+                                                            });
+                                                        }
+                                                    }
+
+                                                    function createFav() {
+                                                        $.ajax({
+                                                            url: "/account/favorites/create",
+                                                            data: { idpost: 4866056 },
+                                                            type: "POST",
+                                                            dataType: "json",
+                                                            success: function (data) {
+                                                                clearMSG();
+                                                                if (data.Status === "error") {
+                                                                    msgContainer.addClass("alert-danger");
+                                                                } else {
+                                                                    msgContainer.addClass("alert-success");
+                                                                }
+
+
+                                                                msgContainerMsg.html(data.Message);
+                                                                msgContainer.show();
+                                                            }
+                                                        });
+                                                    }
+
+                                                    function newInitRecaptcha() {
+                                                        $.getScript("http://www.google.com/recaptcha/api/js/recaptcha_ajax.js", function () {
+                                                            Recaptcha.create(
+                                                                RecaptchaOptions.publicKey,     // public key, declared in Recaptcha view
+                                                                "recaptchaControls",            // id
+                                                                RecaptchaOptions                // options, declared in Recaptcha view
+                                                            );
+                                                        });
+                                                    }
+
+                                                    function getMessage(obj) {
+                                                        var $link = $(obj);
+
+
+                                                        var $container = $("#messageSellerContainer");
+                                                        if ($container.length == 0) {
+                                                            $container = $('<div id="messageSellerContainer"></div>');
+                                                            $("body").append($container);
+                                                        }
+                                                        $container.html("");//.dialog("destroy").html("");
+                                                        $.ajax({
+                                                            url: $link.data("href"),
+                                                            cache: false,
+                                                            success: function (data) {
+                                                                $container.html(data);
+                                                                //listmill.app.initRecaptcha();
+                                                                newInitRecaptcha();
+                                                                //$container.dialog({
+                                                                //    title: "New Message",
+                                                                //    modal: true,
+                                                                //    width: 650,
+                                                                //    buttons: [
+                                                                //        { text: "Send", click: doMessage },
+                                                                //        { text: "Cancel", click: function () { $(this).dialog("close"); } },
+                                                                //    ]
+                                                                //});
+                                                                //$("#Message").focus();
+                                                            }
+                                                        });
+                                                        return false;
+                                                    }
+
+                                                    function doMessageSend() {
+                                                        clearMSG();
+                                                        if ($("#chkTerms").is(':checked')) {
+                                                            var $form = $("#messageSellerContainer form");
+                                                            $.ajax({
+                                                                url: $form.attr("action"),
+                                                                data: $form.serialize(),
+                                                                type: $form.attr("method"),
+                                                                dataType: "json",
+                                                                success: doMessageCallback,
+                                                                error: function(data) {
+                                                                    $("#messageSellerContainer").html(data);
+                                                                }
+                                                            });
+                                                        } else {
+                                                            alert("You must agree to the terms.");
+                                                        }
+                                                        return false;
+                                                    }
+
+                                                    function doMessageCallback(data) {
+
+                                                        var $container = $("#messageSellerContainer");
+                                                        clearMSG();
+                                                        if (data.Status === "invalid") {
+                                                            $container.html(data.Parts[0].Html);
+                                                            //$container.height("auto");
+                                                            //listmill.app.initRecaptcha();
+                                                        } else if (data.Status === "success") {
+                                                            //$container.dialog("close");
+                                                            $('#contactSellerEmailModal').modal('hide');
+                                                            msgContainer.addClass("alert-success");
+
+                                                            msgContainerMsg.html("Message successfully sent");
+                                                            msgContainer.show();
+
+                                                        } else if (data.Status === "confirm") {
+                                                            //$container.dialog("close");
+                                                            $('#contactSellerEmailModal').modal('hide');
+                                                            msgContainer.addClass("alert-success");
+                                                            msgContainerMsg.html(data.Parts[0].Html);
+                                                            msgContainer.show();
+                                                            //var $confirmation = $('<div id="confirmation"></div>');
+                                                            //$confirmation.html(data.Parts[0].Html);
+                                                            //$confirmation.dialog({
+                                                            //    title: "Confirm Email Address",
+                                                            //    width: 400,
+                                                            //    modal: true,
+                                                            //    buttons: [
+                                                            //        { text: "Ok", click: function () { $(this).dialog("close"); } }
+                                                            //    ]
+                                                            //});
+
+                                                        }
+                                                    }
+                                                </script>
+
+                </div>
+            </main>
+
+
+
+
+        
+    <script src="https://s3.amazonaws.com/mgm-content/static/r131903/gzip/shared/js/jquery.detail.main.js"></script>
+
+
+        <footer id="footer" style="display: table;">
+            <div class="top-hold hidden-xs">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-lg-offset-1 col-md-offset-0">
+    <h3 class="text-uppercase">ACCOUNT &amp; LISTINGS </h3>
+    <ul class="nav-footer">
+        <li><a href="//www.armslist.com/accountlogin/new">Account Login</a></li>
+        <li><a href="//www.armslist.com/account/new">New Account</a></li>
+        <li><a href="//www.armslist.com/posts/new">Create a New Listing</a></li>
+        <li><a href="//www.armslist.com/posts/resendactivation">Edit or Remove a Listing</a></li>
+    </ul>
+</div>
+<div class="col-lg-2 col-md-3 col-sm-6">
+    <h3 class="text-uppercase">ABOUT &amp; HELP</h3>
+    <ul class="nav-footer">
+        <li><a href="//www.armslist.com/info/faqs">FAQs</a></li>
+        <li><a href="//www.armslist.com/info/contact">Contact Armslist</a></li>
+        <li><a href="//www.armslist.com/info/privacy">Privacy Policy</a></li>
+        <li><a href="//www.armslist.com/info/terms">Terms of Use</a></li>
+    </ul>
+</div>
+<div class="col-md-3 col-sm-6">
+    <h3 class="text-uppercase">MORE ARMSLIST LINKS </h3>
+    <ul class="nav-footer">
+        <li><a href="http://forum.armslist.com/">Armslist Discussion Forum</a></li>
+        <li><a href="http://armslist.spreadshirt.com/">Armslist T-Shirt Shop</a></li>
+        <li><a href="http://www.armslistlegaldefensefund.com/">Armslist Legal Defense Fund</a></li>
+        <li><a href="//www.armslist.com/info/advertise">Advertising with Armslist</a></li>
+    </ul>
+</div>
+<div class="col-md-3 col-sm-6">
+    <h3 class="text-uppercase">PARTNER SITES</h3>
+    <ul class="nav-footer">
+        <li><a href="http://www.torquelist.com/">Torquelist Vehicle Trader</a></li>
+        <li><a href="http://www.rangemonkey.com/">Range Monkey</a></li>
+        <li><a href="http://www.invictusgearcompany.com/">Invictus Gear </a></li>
+    </ul>
+</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                        <ul class="social-list">
+                            <li>
+                                    <a target="_blank" href="http://www.youtube.com/user/armslistmedia?sub_confirmation=1" title="Armslist Youtube channel" class="icon-youtube"></a>
+                            </li>
+                            <li>
+                                    <a target="_blank" href="https://instagram.com/armslist/" title="Armslist on Instagram" class="icon-instagram"></a>
+                            </li>
+                            <li>
+                                    <a target="_blank" href="https://www.facebook.com/armslist" title="Armslist on Facebook" class="icon-facebook"></a>
+                            </li>
+                            <li>
+                                    <a target="_blank" href="https://twitter.com/armslist" title="Armslist Twitter page" class="icon-twitter"></a>
+                            </li>
+                            <li>
+                                    <a target="_blank" href="https://plus.google.com/103978926144598391141/posts" title="Armslist on Google+" class="icon-google-plus"></a>
+                            </li>
+                        </ul>
+                        <div class="text-block">
+                            <p>Always comply with local, state, federal, and international law.
+ARMSLIST does not become involved in transactions between parties. Review our 
+<a href="/info/privacy">privacy policy</a> and <a href="/info/terms">terms of use</a> for more
+information. Report Illegal Firearms Activity to 1-800-ATF-GUNS.  </p>
+
+                        </div>
+                        <span class="copy">
+                            Copyright &copy; 2016 Armslist, LLC |
+                            | Version: 15.0.2
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+    </div>
+    <div class="loader-box">
+        <img src="https://s3.amazonaws.com/mgm-content/static/r131903/gzip/shared/images/loader.gif" height="64" width="64" alt="loader">
+    </div>
+
+    <script>   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');    ga('create', 'UA-5138407-1', 'auto');   ga('send', 'pageview');  </script>
+
+    <script type="text/javascript" src="http://ads.armslist.com/engine/api"></script>
+    <script type="text/javascript">
+        armsnet.position["E1"] = { id: 5, width: 300, height: 250 };
+        armsnet.position["E2"] = { id: 6, width: 300, height: 600 };
+        armsnet.position["E3"] = { id: 7, width: 300, height: 250 };
+        armsnet.position["E4"] = { id: 8, width: 160, height: 600 };
+        armsnet.position["E5"] = { id: 4, width: 728, height: 90 };
+        armsnet.position["E6"] = { id: 9, width: 728, height: 90 };
+    </script>
+
+
+</body>
+</html>
+
+
+
