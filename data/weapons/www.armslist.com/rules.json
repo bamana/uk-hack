@@ -1,0 +1,170 @@
+[
+  {
+    "begin_regex": "\\{rel:'gal'.*?\\>\\s+\\<div.*?\"\\>\\s+\\<",
+    "end_regex": "\\>\\s+\\</div\\>\\s+\\<",
+    "include_end_regex": true,
+    "name": "slot0456",
+    "rule_type": "ItemRule",
+    "strip_end_regex": "\\>\\s+\\</div\\>\\s+\\<"
+  },
+  {
+    "begin_regex": "\\{rel:'gal'.*?\\>\\s+\\<div.*?=\"",
+    "end_regex": "\"\\>\\s+\\<",
+    "include_end_regex": true,
+    "name": "slot0455",
+    "rule_type": "ItemRule",
+    "strip_end_regex": "\"\\>\\s+\\<"
+  },
+  {
+    "begin_regex": "\\<div\\s+class=\"postContent.*?\"\\>",
+    "end_regex": "\\</div\\>\\s+\\</",
+    "include_end_regex": true,
+    "name": "slot0437",
+    "rule_type": "ItemRule",
+    "strip_end_regex": "\\</div\\>\\s+\\</"
+  },
+  {
+    "begin_regex": "\\<div\\s+class=\"postContent.*?\\</div\\>\\s+\\</",
+    "end_regex": "\\<section\\s+class=\"images",
+    "include_end_regex": true,
+    "name": "slot0438",
+    "rule_type": "ItemRule",
+    "strip_end_regex": "\\<section\\s+class=\"images"
+  },
+  {
+    "begin_regex": "\\-actions\"\\>\\s+\\<",
+    "end_regex": "link\"\\s+title=\"Edit",
+    "include_end_regex": true,
+    "name": "slot0414",
+    "rule_type": "ItemRule",
+    "strip_end_regex": "link\"\\s+title=\"Edit"
+  },
+  {
+    "begin_regex": ":\\</dt\\>\\s+\\<dd\\s+class=\"location.*?\"\\>",
+    "end_regex": "\\-\\s+\\<a\\s+href=\"",
+    "include_end_regex": true,
+    "name": "slot0398",
+    "rule_type": "ItemRule",
+    "strip_end_regex": "\\-\\s+\\<a\\s+href=\""
+  },
+  {
+    "begin_regex": "\\<dt\\>Listed\\s+In:.*?\\</dt\\>\\s+\\<dd.*?\\>",
+    "end_regex": "\\</",
+    "include_end_regex": true,
+    "name": "slot0394",
+    "rule_type": "ItemRule",
+    "strip_end_regex": "\\</"
+  },
+  {
+    "begin_regex": ",\\s+November",
+    "end_regex": ",\\s+2015\\</dd\\>",
+    "include_end_regex": true,
+    "name": "slot0390",
+    "rule_type": "ItemRule",
+    "strip_end_regex": ",\\s+2015\\</dd\\>"
+  },
+  {
+    "begin_regex": ":",
+    "end_regex": "\\</title\\>\\s+\\<link",
+    "include_end_regex": true,
+    "name": "slot0006",
+    "rule_type": "ItemRule",
+    "strip_end_regex": "\\</title\\>\\s+\\<link"
+  },
+  {
+    "begin_regex": "3a\\+\\+",
+    "end_regex": "\"\\>\\s+\\<img\\s+src=",
+    "include_end_regex": true,
+    "name": "slot0358",
+    "rule_type": "ItemRule",
+    "strip_end_regex": "\"\\>\\s+\\<img\\s+src="
+  },
+  {
+    "begin_regex": "dd\\>\\s+\\<dt\\>Seller.*?dd\\>",
+    "end_regex": "\\</",
+    "include_end_regex": true,
+    "name": "slot0377",
+    "rule_type": "ItemRule",
+    "strip_end_regex": "\\</"
+  },
+  {
+    "begin_regex": "h4\"\\>\\s+\\$",
+    "end_regex": "\\</",
+    "include_end_regex": true,
+    "name": "slot0373",
+    "rule_type": "ItemRule",
+    "strip_end_regex": "\\</"
+  },
+  {
+    "begin_regex": "href=\"/\"\\>Home",
+    "end_regex": "\\>\\</div\\>\\s+For",
+    "include_end_regex": true,
+    "name": "slot0279",
+    "rule_type": "ItemRule",
+    "strip_end_regex": "\\>\\</div\\>\\s+For"
+  },
+  {
+    "begin_regex": "\\<section\\s+class=\"images.*?\"\\>\\s+\\<a\\s+class=",
+    "end_regex": "\\</a\\>\\s+\\<script",
+    "include_end_regex": true,
+    "name": "slot0440",
+    "rule_type": "ItemRule",
+    "strip_end_regex": "\\</a\\>\\s+\\<script"
+  },
+  {
+    "begin_regex": "/dd\\>\\s+\\<dt\\>Shipping",
+    "end_regex": "\\<section\\s+class=\"fields",
+    "include_end_regex": true,
+    "name": "slot0407",
+    "rule_type": "ItemRule",
+    "strip_end_regex": "\\<section\\s+class=\"fields"
+  },
+  {
+    "begin_regex": "On:\\</dt\\>.*?\\<dd\\>",
+    "end_regex": ",\\s+November",
+    "include_end_regex": true,
+    "name": "slot0389",
+    "rule_type": "ItemRule",
+    "strip_end_regex": ",\\s+November"
+  },
+  {
+    "begin_regex": ":\\</dt\\>\\s+\\<dd\\>Registered",
+    "end_regex": "\\</dd\\>\\s+\\</",
+    "include_end_regex": true,
+    "name": "slot0381",
+    "rule_type": "ItemRule",
+    "strip_end_regex": "\\</dd\\>\\s+\\</"
+  },
+  {
+    "begin_regex": "=\\s+Number\\(",
+    "end_regex": "\\);\\s+\\$\\(function\\(",
+    "include_end_regex": true,
+    "name": "slot0137",
+    "rule_type": "ItemRule",
+    "strip_end_regex": "\\);\\s+\\$\\(function\\("
+  },
+  {
+    "begin_regex": "/posts/2015/",
+    "end_regex": "_640\\.jpg\\&description",
+    "include_end_regex": true,
+    "name": "slot0355",
+    "rule_type": "ItemRule",
+    "strip_end_regex": "_640\\.jpg\\&description"
+  },
+  {
+    "begin_regex": "\\-for\\-sale\\-",
+    "end_regex": "\"\\>\\s+\\<img\\s+src=",
+    "include_end_regex": true,
+    "name": "slot0309",
+    "rule_type": "ItemRule",
+    "strip_end_regex": "\"\\>\\s+\\<img\\s+src="
+  },
+  {
+    "begin_regex": "\\.armslist\\.com/posts",
+    "end_regex": "\\-for\\-sale\\-",
+    "include_end_regex": true,
+    "name": "slot0308",
+    "rule_type": "ItemRule",
+    "strip_end_regex": "\\-for\\-sale\\-"
+  }
+]
