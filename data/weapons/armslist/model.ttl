@@ -14,14 +14,14 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node1act6h098x1 a km-dev:R2RMLMapping ;
+_:node1actf8g53x1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "test-extractions.json" ;
-	km-dev:modelPublicationTime "1456973840680"^^xsd:long ;
+	km-dev:modelPublicationTime "1456982999203"^^xsd:long ;
 	km-dev:modelVersion "1.7" ;
-	km-dev:hasInputColumns "[[{\"columnName\":\"slot1057\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0842\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0805\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0009\"},{\"columnName\":\"extract\"}]]" ;
-	km-dev:hasOutputColumns "[[{\"columnName\":\"slot1057\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0842\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0805\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0009\"},{\"columnName\":\"extract\"}]]" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"slot0976\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1037\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1008\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0009\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0989\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1088\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0973\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1073\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1153\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0988\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1082\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0972\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1057\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0842\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1025\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0760\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0935\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1038\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0805\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1019\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0294\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1007\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1076\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0934\"},{\"columnName\":\"extract\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"slot0976\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1037\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1008\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0009\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0989\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1088\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0973\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1073\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1153\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0988\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1082\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0972\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1057\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0842\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1025\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0760\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0935\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1038\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0805\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1019\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0294\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1007\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot1076\"},{\"columnName\":\"extract\"}],[{\"columnName\":\"slot0934\"},{\"columnName\":\"extract\"}]]" ;
 	km-dev:hasModelLabel "test-extractions.json" ;
-	km-dev:hasBaseURI "http://dig.isi.edu/data/" ;
+	km-dev:hasBaseURI "http://dig.idi.edu/data/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"commandName\": \"SetWorksheetPropertiesCommand\",
@@ -44,6 +44,44 @@ _:node1act6h098x1 a km-dev:R2RMLMapping ;
                     \"graphLabel\": \"\",
                     \"hasBaseURI\": true,
                     \"baseURI\": \"http://dig.isi.edu/data/\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": true,
+                    \"baseURI\": \"http://dig.idi.edu/data/\",
                     \"hasPrefix\": false,
                     \"hasServiceProperties\": false
                 }
@@ -283,6 +321,1106 @@ _:node1act6h098x1 a km-dev:R2RMLMapping ;
         \"tags\": [\"SemanticType\"]
     },
     {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"slot0294\"},
+                    {\"columnName\": \"extract\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/CreativeWork\",
+                    \"DomainId\": \"http://schema.org/CreativeWork1\",
+                    \"FullType\": \"http://schema.dig.isi.edu/ontology/htmlMarkupFragment\",
+                    \"DomainLabel\": \"CreativeWork1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot0294\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot0294\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"slot0760\"},
+                    {\"columnName\": \"extract\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/CreativeWork\",
+                    \"DomainId\": \"http://schema.org/CreativeWork1\",
+                    \"FullType\": \"http://schema.dig.isi.edu/ontology/htmlMarkupFragment\",
+                    \"DomainLabel\": \"CreativeWork1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot0760\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot0760\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"slot0934\"},
+                    {\"columnName\": \"extract\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/CreativeWork\",
+                    \"DomainId\": \"http://schema.org/CreativeWork1\",
+                    \"FullType\": \"http://schema.dig.isi.edu/ontology/urlFragment\",
+                    \"DomainLabel\": \"CreativeWork1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot0934\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot0934\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"slot0935\"},
+                    {\"columnName\": \"extract\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/CreativeWork\",
+                    \"DomainId\": \"http://schema.org/CreativeWork1\",
+                    \"FullType\": \"http://schema.dig.isi.edu/ontology/urlFragment\",
+                    \"DomainLabel\": \"CreativeWork1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot0935\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot0935\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"slot0972\"},
+                    {\"columnName\": \"extract\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/CreativeWork\",
+                    \"DomainId\": \"http://schema.org/CreativeWork1\",
+                    \"FullType\": \"http://schema.dig.isi.edu/ontology/urlFragment\",
+                    \"DomainLabel\": \"CreativeWork1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot0972\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot0972\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"slot0973\"},
+                    {\"columnName\": \"extract\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/CreativeWork\",
+                    \"DomainId\": \"http://schema.org/CreativeWork1\",
+                    \"FullType\": \"http://schema.dig.isi.edu/ontology/urlFragment\",
+                    \"DomainLabel\": \"CreativeWork1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot0973\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot0973\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"slot0976\"},
+                    {\"columnName\": \"extract\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/CreativeWork\",
+                    \"DomainId\": \"http://schema.org/CreativeWork1\",
+                    \"FullType\": \"http://schema.dig.isi.edu/ontology/urlFragment\",
+                    \"DomainLabel\": \"CreativeWork1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot0976\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot0976\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"slot0988\"},
+                    {\"columnName\": \"extract\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/Offer\",
+                    \"DomainId\": \"http://schema.org/Offer1\",
+                    \"FullType\": \"http://schema.org/price\",
+                    \"DomainLabel\": \"Offer1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot0988\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot0988\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"slot0989\"},
+                    {\"columnName\": \"extract\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/CreativeWork\",
+                    \"DomainId\": \"http://schema.org/CreativeWork1\",
+                    \"FullType\": \"http://schema.dig.isi.edu/ontology/urlFragment\",
+                    \"DomainLabel\": \"CreativeWork1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot0989\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot0989\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"slot1007\"},
+                    {\"columnName\": \"extract\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/CreativeWork\",
+                    \"DomainId\": \"http://schema.org/CreativeWork1\",
+                    \"FullType\": \"http://schema.dig.isi.edu/ontology/urlFragment\",
+                    \"DomainLabel\": \"CreativeWork1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1007\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1007\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"slot1008\"},
+                    {\"columnName\": \"extract\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/CreativeWork\",
+                    \"DomainId\": \"http://schema.org/CreativeWork1\",
+                    \"FullType\": \"http://schema.dig.isi.edu/ontology/htmlMarkupFragment\",
+                    \"DomainLabel\": \"CreativeWork1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1008\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1008\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"slot1019\"},
+                    {\"columnName\": \"extract\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/CreativeWork\",
+                    \"DomainId\": \"http://schema.org/CreativeWork1\",
+                    \"FullType\": \"http://schema.dig.isi.edu/ontology/htmlMarkupFragment\",
+                    \"DomainLabel\": \"CreativeWork1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1019\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1019\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"slot1025\"},
+                    {\"columnName\": \"extract\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/Offer\",
+                    \"DomainId\": \"http://schema.org/Offer1\",
+                    \"FullType\": \"http://schema.org/description\",
+                    \"DomainLabel\": \"Offer1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1025\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1025\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"slot1037\"},
+                    {\"columnName\": \"extract\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/CreativeWork\",
+                    \"DomainId\": \"http://schema.org/CreativeWork1\",
+                    \"FullType\": \"http://schema.dig.isi.edu/ontology/htmlMarkupFragment\",
+                    \"DomainLabel\": \"CreativeWork1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1037\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1037\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"slot1073\"},
+                    {\"columnName\": \"extract\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/CreativeWork\",
+                    \"DomainId\": \"http://schema.org/CreativeWork1\",
+                    \"FullType\": \"http://schema.dig.isi.edu/ontology/htmlMarkupFragment\",
+                    \"DomainLabel\": \"CreativeWork1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1073\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1073\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"slot1082\"},
+                    {\"columnName\": \"extract\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.dig.isi.edu/ontology/Firearm\",
+                    \"DomainId\": \"http://schema.dig.isi.edu/ontology/Firearm1\",
+                    \"FullType\": \"http://schema.dig.isi.edu/ontology/firearmAction\",
+                    \"DomainLabel\": \"memex:Firearm1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1082\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1082\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"slot1076\"},
+                    {\"columnName\": \"extract\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.dig.isi.edu/ontology/Firearm\",
+                    \"DomainId\": \"http://schema.dig.isi.edu/ontology/Firearm1\",
+                    \"FullType\": \"http://schema.dig.isi.edu/ontology/caliber\",
+                    \"DomainLabel\": \"Firearm1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1076\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1076\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"slot1088\"},
+                    {\"columnName\": \"extract\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.dig.isi.edu/ontology/Firearm\",
+                    \"DomainId\": \"http://schema.dig.isi.edu/ontology/Firearm1\",
+                    \"FullType\": \"http://schema.org/category\",
+                    \"DomainLabel\": \"Firearm1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1088\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1088\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"slot1153\"},
+                    {\"columnName\": \"extract\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/Offer\",
+                    \"DomainId\": \"http://schema.org/Offer1\",
+                    \"FullType\": \"http://schema.org/availabilityStarts\",
+                    \"DomainLabel\": \"Offer1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1153\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1153\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"slot1038\"},
+                    {\"columnName\": \"extract\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://schema.org/Role\",
+                    \"DomainId\": \"http://schema.org/Role1\",
+                    \"FullType\": \"http://schema.org/startDate\",
+                    \"DomainLabel\": \"Role1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1038\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slot1038\\\"},{\\\"columnName\\\":\\\"extract\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
         \"commandName\": \"ChangeInternalNodeLinksCommand\",
         \"model\": \"new\",
         \"inputParameters\": [
@@ -377,68 +1515,412 @@ _:node1act6h098x1 a km-dev:R2RMLMapping ;
             }
         ],
         \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"ChangeInternalNodeLinksCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"initialEdges\",
+                \"type\": \"other\",
+                \"value\": []
+            },
+            {
+                \"name\": \"alignmentId\",
+                \"type\": \"other\",
+                \"value\": \"WSP3:WS5AL\"
+            },
+            {
+                \"name\": \"newEdges\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"edgeTargetId\": \"http://schema.dig.isi.edu/ontology/Firearm1\",
+                    \"edgeId\": \"http://schema.org/itemOffered\",
+                    \"edgeTargetUri\": \"http://schema.dig.isi.edu/ontology/Firearm\",
+                    \"edgeSourceId\": \"http://schema.org/Offer1\",
+                    \"edgeSourceUri\": \"http://schema.org/Offer\"
+                }]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
     }
 ]""" .
 
-km-dev:TriplesMap_ecb5cde9-9b5e-40fb-a65c-381f3de24ccf a rr:TriplesMap .
+km-dev:TriplesMap_c5de21fd-30b3-493e-8b6b-4ca1a7e0ae8e a rr:TriplesMap .
 
-_:node1act6h098x1 km-dev:hasTriplesMap km-dev:TriplesMap_ecb5cde9-9b5e-40fb-a65c-381f3de24ccf .
+_:node1actf8g53x1 km-dev:hasTriplesMap km-dev:TriplesMap_c5de21fd-30b3-493e-8b6b-4ca1a7e0ae8e .
 
-km-dev:TriplesMap_ecb5cde9-9b5e-40fb-a65c-381f3de24ccf km-dev:isPartOfMapping _:node1act6h098x1 .
+km-dev:TriplesMap_c5de21fd-30b3-493e-8b6b-4ca1a7e0ae8e km-dev:isPartOfMapping _:node1actf8g53x1 .
 
-_:node1act6h098x2 rr:tableName "test-extractions.json" ;
+_:node1actf8g53x2 rr:tableName "test-extractions.json" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1act6h098x1 .
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
 
-_:node1act6h098x1 km-dev:hasLogicalTable _:node1act6h098x2 .
+_:node1actf8g53x1 km-dev:hasLogicalTable _:node1actf8g53x2 .
 
-km-dev:TriplesMap_ecb5cde9-9b5e-40fb-a65c-381f3de24ccf rr:logicalTable _:node1act6h098x2 ;
-	rr:subjectMap _:node1act6h098x3 .
+km-dev:TriplesMap_c5de21fd-30b3-493e-8b6b-4ca1a7e0ae8e rr:logicalTable _:node1actf8g53x2 ;
+	rr:subjectMap _:node1actf8g53x3 .
 
-_:node1act6h098x1 km-dev:hasSubjectMap _:node1act6h098x3 .
+_:node1actf8g53x1 km-dev:hasSubjectMap _:node1actf8g53x3 .
 
-_:node1act6h098x3 km-dev:isPartOfMapping _:node1act6h098x1 ;
+_:node1actf8g53x3 km-dev:isPartOfMapping _:node1actf8g53x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://schema.dig.isi.edu/ontology/Firearm1" ;
+	rr:class memex:Firearm ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "memex:Firearm1" .
+
+km-dev:PredicateObjectMap_cd0c3493-4df5-428e-9adb-0e31162d2de2 rr:predicate memex:caliber .
+
+_:node1actf8g53x4 rr:column "[\"slot1076\",\"extract\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x4 .
+
+km-dev:PredicateObjectMap_cd0c3493-4df5-428e-9adb-0e31162d2de2 rr:objectMap _:node1actf8g53x4 .
+
+km-dev:TriplesMap_c5de21fd-30b3-493e-8b6b-4ca1a7e0ae8e rr:predicateObjectMap km-dev:PredicateObjectMap_cd0c3493-4df5-428e-9adb-0e31162d2de2 .
+
+km-dev:PredicateObjectMap_cd0c3493-4df5-428e-9adb-0e31162d2de2 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_cd0c3493-4df5-428e-9adb-0e31162d2de2 .
+
+km-dev:PredicateObjectMap_da6b01ee-a835-4938-b987-0a76c21ceb91 rr:predicate memex:firearmAction .
+
+_:node1actf8g53x5 rr:column "[\"slot1082\",\"extract\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x5 .
+
+km-dev:PredicateObjectMap_da6b01ee-a835-4938-b987-0a76c21ceb91 rr:objectMap _:node1actf8g53x5 .
+
+km-dev:TriplesMap_c5de21fd-30b3-493e-8b6b-4ca1a7e0ae8e rr:predicateObjectMap km-dev:PredicateObjectMap_da6b01ee-a835-4938-b987-0a76c21ceb91 .
+
+km-dev:PredicateObjectMap_da6b01ee-a835-4938-b987-0a76c21ceb91 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_da6b01ee-a835-4938-b987-0a76c21ceb91 .
+
+km-dev:PredicateObjectMap_732e7b8a-95de-47a8-8f11-79cb242feb0e rr:predicate schema:category .
+
+_:node1actf8g53x6 rr:column "[\"slot1088\",\"extract\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x6 .
+
+km-dev:PredicateObjectMap_732e7b8a-95de-47a8-8f11-79cb242feb0e rr:objectMap _:node1actf8g53x6 .
+
+km-dev:TriplesMap_c5de21fd-30b3-493e-8b6b-4ca1a7e0ae8e rr:predicateObjectMap km-dev:PredicateObjectMap_732e7b8a-95de-47a8-8f11-79cb242feb0e .
+
+km-dev:PredicateObjectMap_732e7b8a-95de-47a8-8f11-79cb242feb0e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_732e7b8a-95de-47a8-8f11-79cb242feb0e .
+
+km-dev:TriplesMap_e83c6d7f-c665-41f5-98e9-d7187c6ada6e a rr:TriplesMap .
+
+_:node1actf8g53x1 km-dev:hasTriplesMap km-dev:TriplesMap_e83c6d7f-c665-41f5-98e9-d7187c6ada6e .
+
+km-dev:TriplesMap_e83c6d7f-c665-41f5-98e9-d7187c6ada6e km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x7 rr:tableName "test-extractions.json" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasLogicalTable _:node1actf8g53x7 .
+
+km-dev:TriplesMap_e83c6d7f-c665-41f5-98e9-d7187c6ada6e rr:logicalTable _:node1actf8g53x7 ;
+	rr:subjectMap _:node1actf8g53x8 .
+
+_:node1actf8g53x1 km-dev:hasSubjectMap _:node1actf8g53x8 .
+
+_:node1actf8g53x8 km-dev:isPartOfMapping _:node1actf8g53x1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://schema.org/CreativeWork1" ;
 	rr:class schema:CreativeWork ;
 	rr:termType rr:BlankNode ;
 	km-dev:namePrefix "schema:CreativeWork1" .
 
-km-dev:PredicateObjectMap_e8835f14-3b2c-440e-8131-8c67eb15a3a0 rr:predicate memex:identifier .
+km-dev:PredicateObjectMap_949f0cf5-d473-49dc-ac8e-1b685590a220 rr:predicate memex:htmlMarkupFragment .
 
-_:node1act6h098x4 rr:column "[\"slot0842\",\"extract\"]" ;
+_:node1actf8g53x9 rr:column "[\"slot0294\",\"extract\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1act6h098x1 .
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
 
-_:node1act6h098x1 km-dev:hasObjectMap _:node1act6h098x4 .
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x9 .
 
-km-dev:PredicateObjectMap_e8835f14-3b2c-440e-8131-8c67eb15a3a0 rr:objectMap _:node1act6h098x4 .
+km-dev:PredicateObjectMap_949f0cf5-d473-49dc-ac8e-1b685590a220 rr:objectMap _:node1actf8g53x9 .
 
-km-dev:TriplesMap_ecb5cde9-9b5e-40fb-a65c-381f3de24ccf rr:predicateObjectMap km-dev:PredicateObjectMap_e8835f14-3b2c-440e-8131-8c67eb15a3a0 .
+km-dev:TriplesMap_e83c6d7f-c665-41f5-98e9-d7187c6ada6e rr:predicateObjectMap km-dev:PredicateObjectMap_949f0cf5-d473-49dc-ac8e-1b685590a220 .
 
-km-dev:PredicateObjectMap_e8835f14-3b2c-440e-8131-8c67eb15a3a0 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1act6h098x1 .
+km-dev:PredicateObjectMap_949f0cf5-d473-49dc-ac8e-1b685590a220 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
 
-_:node1act6h098x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e8835f14-3b2c-440e-8131-8c67eb15a3a0 .
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_949f0cf5-d473-49dc-ac8e-1b685590a220 .
 
-km-dev:TriplesMap_65755524-0865-4d2a-9844-742348ff4c1b a rr:TriplesMap .
+km-dev:PredicateObjectMap_b45ff6e3-6c7b-43fe-8d61-bf5b2e2bca7b rr:predicate memex:htmlMarkupFragment .
 
-_:node1act6h098x1 km-dev:hasTriplesMap km-dev:TriplesMap_65755524-0865-4d2a-9844-742348ff4c1b .
+_:node1actf8g53x10 rr:column "[\"slot0760\",\"extract\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
 
-km-dev:TriplesMap_65755524-0865-4d2a-9844-742348ff4c1b km-dev:isPartOfMapping _:node1act6h098x1 .
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x10 .
 
-_:node1act6h098x5 rr:tableName "test-extractions.json" ;
+km-dev:PredicateObjectMap_b45ff6e3-6c7b-43fe-8d61-bf5b2e2bca7b rr:objectMap _:node1actf8g53x10 .
+
+km-dev:TriplesMap_e83c6d7f-c665-41f5-98e9-d7187c6ada6e rr:predicateObjectMap km-dev:PredicateObjectMap_b45ff6e3-6c7b-43fe-8d61-bf5b2e2bca7b .
+
+km-dev:PredicateObjectMap_b45ff6e3-6c7b-43fe-8d61-bf5b2e2bca7b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b45ff6e3-6c7b-43fe-8d61-bf5b2e2bca7b .
+
+km-dev:PredicateObjectMap_77a6aaa3-c27f-4d2f-b861-24fbc1227bc5 rr:predicate memex:htmlMarkupFragment .
+
+_:node1actf8g53x11 rr:column "[\"slot1008\",\"extract\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x11 .
+
+km-dev:PredicateObjectMap_77a6aaa3-c27f-4d2f-b861-24fbc1227bc5 rr:objectMap _:node1actf8g53x11 .
+
+km-dev:TriplesMap_e83c6d7f-c665-41f5-98e9-d7187c6ada6e rr:predicateObjectMap km-dev:PredicateObjectMap_77a6aaa3-c27f-4d2f-b861-24fbc1227bc5 .
+
+km-dev:PredicateObjectMap_77a6aaa3-c27f-4d2f-b861-24fbc1227bc5 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_77a6aaa3-c27f-4d2f-b861-24fbc1227bc5 .
+
+km-dev:PredicateObjectMap_66e24b25-869d-48c1-b581-2ae2624d5e74 rr:predicate memex:htmlMarkupFragment .
+
+_:node1actf8g53x12 rr:column "[\"slot1019\",\"extract\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x12 .
+
+km-dev:PredicateObjectMap_66e24b25-869d-48c1-b581-2ae2624d5e74 rr:objectMap _:node1actf8g53x12 .
+
+km-dev:TriplesMap_e83c6d7f-c665-41f5-98e9-d7187c6ada6e rr:predicateObjectMap km-dev:PredicateObjectMap_66e24b25-869d-48c1-b581-2ae2624d5e74 .
+
+km-dev:PredicateObjectMap_66e24b25-869d-48c1-b581-2ae2624d5e74 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_66e24b25-869d-48c1-b581-2ae2624d5e74 .
+
+km-dev:PredicateObjectMap_be5dfd03-760b-4b45-9c24-61793c33fe6e rr:predicate memex:htmlMarkupFragment .
+
+_:node1actf8g53x13 rr:column "[\"slot1037\",\"extract\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x13 .
+
+km-dev:PredicateObjectMap_be5dfd03-760b-4b45-9c24-61793c33fe6e rr:objectMap _:node1actf8g53x13 .
+
+km-dev:TriplesMap_e83c6d7f-c665-41f5-98e9-d7187c6ada6e rr:predicateObjectMap km-dev:PredicateObjectMap_be5dfd03-760b-4b45-9c24-61793c33fe6e .
+
+km-dev:PredicateObjectMap_be5dfd03-760b-4b45-9c24-61793c33fe6e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_be5dfd03-760b-4b45-9c24-61793c33fe6e .
+
+km-dev:PredicateObjectMap_9d488107-5270-41a6-9f99-a1b4e1746693 rr:predicate memex:htmlMarkupFragment .
+
+_:node1actf8g53x14 rr:column "[\"slot1073\",\"extract\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x14 .
+
+km-dev:PredicateObjectMap_9d488107-5270-41a6-9f99-a1b4e1746693 rr:objectMap _:node1actf8g53x14 .
+
+km-dev:TriplesMap_e83c6d7f-c665-41f5-98e9-d7187c6ada6e rr:predicateObjectMap km-dev:PredicateObjectMap_9d488107-5270-41a6-9f99-a1b4e1746693 .
+
+km-dev:PredicateObjectMap_9d488107-5270-41a6-9f99-a1b4e1746693 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9d488107-5270-41a6-9f99-a1b4e1746693 .
+
+km-dev:PredicateObjectMap_6fec3a8e-e2d6-4fac-b564-d292b2aa290a rr:predicate memex:identifier .
+
+_:node1actf8g53x15 rr:column "[\"slot0842\",\"extract\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x15 .
+
+km-dev:PredicateObjectMap_6fec3a8e-e2d6-4fac-b564-d292b2aa290a rr:objectMap _:node1actf8g53x15 .
+
+km-dev:TriplesMap_e83c6d7f-c665-41f5-98e9-d7187c6ada6e rr:predicateObjectMap km-dev:PredicateObjectMap_6fec3a8e-e2d6-4fac-b564-d292b2aa290a .
+
+km-dev:PredicateObjectMap_6fec3a8e-e2d6-4fac-b564-d292b2aa290a a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6fec3a8e-e2d6-4fac-b564-d292b2aa290a .
+
+km-dev:PredicateObjectMap_e541ba24-439f-41fa-8972-574d72926b36 rr:predicate memex:urlFragment .
+
+_:node1actf8g53x16 rr:column "[\"slot0934\",\"extract\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x16 .
+
+km-dev:PredicateObjectMap_e541ba24-439f-41fa-8972-574d72926b36 rr:objectMap _:node1actf8g53x16 .
+
+km-dev:TriplesMap_e83c6d7f-c665-41f5-98e9-d7187c6ada6e rr:predicateObjectMap km-dev:PredicateObjectMap_e541ba24-439f-41fa-8972-574d72926b36 .
+
+km-dev:PredicateObjectMap_e541ba24-439f-41fa-8972-574d72926b36 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e541ba24-439f-41fa-8972-574d72926b36 .
+
+km-dev:PredicateObjectMap_1bf9a61b-3a68-438f-9512-de2a887ef235 rr:predicate memex:urlFragment .
+
+_:node1actf8g53x17 rr:column "[\"slot0935\",\"extract\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x17 .
+
+km-dev:PredicateObjectMap_1bf9a61b-3a68-438f-9512-de2a887ef235 rr:objectMap _:node1actf8g53x17 .
+
+km-dev:TriplesMap_e83c6d7f-c665-41f5-98e9-d7187c6ada6e rr:predicateObjectMap km-dev:PredicateObjectMap_1bf9a61b-3a68-438f-9512-de2a887ef235 .
+
+km-dev:PredicateObjectMap_1bf9a61b-3a68-438f-9512-de2a887ef235 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1bf9a61b-3a68-438f-9512-de2a887ef235 .
+
+km-dev:PredicateObjectMap_e9fefa84-6dc2-4bb2-a3da-d53f25be6c42 rr:predicate memex:urlFragment .
+
+_:node1actf8g53x18 rr:column "[\"slot0972\",\"extract\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x18 .
+
+km-dev:PredicateObjectMap_e9fefa84-6dc2-4bb2-a3da-d53f25be6c42 rr:objectMap _:node1actf8g53x18 .
+
+km-dev:TriplesMap_e83c6d7f-c665-41f5-98e9-d7187c6ada6e rr:predicateObjectMap km-dev:PredicateObjectMap_e9fefa84-6dc2-4bb2-a3da-d53f25be6c42 .
+
+km-dev:PredicateObjectMap_e9fefa84-6dc2-4bb2-a3da-d53f25be6c42 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e9fefa84-6dc2-4bb2-a3da-d53f25be6c42 .
+
+km-dev:PredicateObjectMap_828dff6d-71f7-413d-9d35-cd0730e26c27 rr:predicate memex:urlFragment .
+
+_:node1actf8g53x19 rr:column "[\"slot0973\",\"extract\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x19 .
+
+km-dev:PredicateObjectMap_828dff6d-71f7-413d-9d35-cd0730e26c27 rr:objectMap _:node1actf8g53x19 .
+
+km-dev:TriplesMap_e83c6d7f-c665-41f5-98e9-d7187c6ada6e rr:predicateObjectMap km-dev:PredicateObjectMap_828dff6d-71f7-413d-9d35-cd0730e26c27 .
+
+km-dev:PredicateObjectMap_828dff6d-71f7-413d-9d35-cd0730e26c27 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_828dff6d-71f7-413d-9d35-cd0730e26c27 .
+
+km-dev:PredicateObjectMap_c6db842c-2ece-432d-837a-f656ec52b170 rr:predicate memex:urlFragment .
+
+_:node1actf8g53x20 rr:column "[\"slot0976\",\"extract\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x20 .
+
+km-dev:PredicateObjectMap_c6db842c-2ece-432d-837a-f656ec52b170 rr:objectMap _:node1actf8g53x20 .
+
+km-dev:TriplesMap_e83c6d7f-c665-41f5-98e9-d7187c6ada6e rr:predicateObjectMap km-dev:PredicateObjectMap_c6db842c-2ece-432d-837a-f656ec52b170 .
+
+km-dev:PredicateObjectMap_c6db842c-2ece-432d-837a-f656ec52b170 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c6db842c-2ece-432d-837a-f656ec52b170 .
+
+km-dev:PredicateObjectMap_9670ea67-75b8-42ca-88c4-0d0a3cd3e08b rr:predicate memex:urlFragment .
+
+_:node1actf8g53x21 rr:column "[\"slot0989\",\"extract\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x21 .
+
+km-dev:PredicateObjectMap_9670ea67-75b8-42ca-88c4-0d0a3cd3e08b rr:objectMap _:node1actf8g53x21 .
+
+km-dev:TriplesMap_e83c6d7f-c665-41f5-98e9-d7187c6ada6e rr:predicateObjectMap km-dev:PredicateObjectMap_9670ea67-75b8-42ca-88c4-0d0a3cd3e08b .
+
+km-dev:PredicateObjectMap_9670ea67-75b8-42ca-88c4-0d0a3cd3e08b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9670ea67-75b8-42ca-88c4-0d0a3cd3e08b .
+
+km-dev:PredicateObjectMap_9a0e7872-1e67-4cfa-b554-30e4324f6cb1 rr:predicate memex:urlFragment .
+
+_:node1actf8g53x22 rr:column "[\"slot1007\",\"extract\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x22 .
+
+km-dev:PredicateObjectMap_9a0e7872-1e67-4cfa-b554-30e4324f6cb1 rr:objectMap _:node1actf8g53x22 .
+
+km-dev:TriplesMap_e83c6d7f-c665-41f5-98e9-d7187c6ada6e rr:predicateObjectMap km-dev:PredicateObjectMap_9a0e7872-1e67-4cfa-b554-30e4324f6cb1 .
+
+km-dev:PredicateObjectMap_9a0e7872-1e67-4cfa-b554-30e4324f6cb1 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9a0e7872-1e67-4cfa-b554-30e4324f6cb1 .
+
+km-dev:TriplesMap_f9821c7e-4cb1-49ed-9804-bee53826d573 a rr:TriplesMap .
+
+_:node1actf8g53x1 km-dev:hasTriplesMap km-dev:TriplesMap_f9821c7e-4cb1-49ed-9804-bee53826d573 .
+
+km-dev:TriplesMap_f9821c7e-4cb1-49ed-9804-bee53826d573 km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x23 rr:tableName "test-extractions.json" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1act6h098x1 .
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
 
-_:node1act6h098x1 km-dev:hasLogicalTable _:node1act6h098x5 .
+_:node1actf8g53x1 km-dev:hasLogicalTable _:node1actf8g53x23 .
 
-km-dev:TriplesMap_65755524-0865-4d2a-9844-742348ff4c1b rr:logicalTable _:node1act6h098x5 ;
-	rr:subjectMap _:node1act6h098x6 .
+km-dev:TriplesMap_f9821c7e-4cb1-49ed-9804-bee53826d573 rr:logicalTable _:node1actf8g53x23 ;
+	rr:subjectMap _:node1actf8g53x24 .
 
-_:node1act6h098x1 km-dev:hasSubjectMap _:node1act6h098x6 .
+_:node1actf8g53x1 km-dev:hasSubjectMap _:node1actf8g53x24 .
 
-_:node1act6h098x6 km-dev:isPartOfMapping _:node1act6h098x1 ;
+_:node1actf8g53x24 km-dev:isPartOfMapping _:node1actf8g53x1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://schema.org/Offer1" ;
 	rr:class schema:Offer ;
@@ -446,111 +1928,220 @@ _:node1act6h098x6 km-dev:isPartOfMapping _:node1act6h098x1 ;
 	km-dev:namePrefix "schema:Offer1" ;
 	a km-dev:steinerTreeRootNode .
 
-km-dev:PredicateObjectMap_83fb1db4-8de4-49a7-80d8-f4c05ae5c87f rr:predicate schema:availableAtOrFrom .
+km-dev:PredicateObjectMap_49f341df-66f9-4923-b35b-4f6ae426e99c rr:predicate schema:availabilityStarts .
 
-km-dev:RefObjectMap_bf347b60-e372-4fb6-b744-a41f34834754 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_c492fbce-6a94-4b33-a0b7-99ae3350758a ;
-	km-dev:isPartOfMapping _:node1act6h098x1 .
-
-_:node1act6h098x1 km-dev:hasObjectMap km-dev:RefObjectMap_bf347b60-e372-4fb6-b744-a41f34834754 .
-
-km-dev:PredicateObjectMap_83fb1db4-8de4-49a7-80d8-f4c05ae5c87f rr:objectMap km-dev:RefObjectMap_bf347b60-e372-4fb6-b744-a41f34834754 .
-
-km-dev:TriplesMap_65755524-0865-4d2a-9844-742348ff4c1b rr:predicateObjectMap km-dev:PredicateObjectMap_83fb1db4-8de4-49a7-80d8-f4c05ae5c87f .
-
-km-dev:PredicateObjectMap_83fb1db4-8de4-49a7-80d8-f4c05ae5c87f a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1act6h098x1 .
-
-_:node1act6h098x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_83fb1db4-8de4-49a7-80d8-f4c05ae5c87f .
-
-km-dev:PredicateObjectMap_34ec1eaf-127d-4807-b811-6f2670127bfe rr:predicate schema:category .
-
-_:node1act6h098x7 rr:column "[\"slot0805\",\"extract\"]" ;
+_:node1actf8g53x25 rr:column "[\"slot1153\",\"extract\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1act6h098x1 .
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
 
-_:node1act6h098x1 km-dev:hasObjectMap _:node1act6h098x7 .
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x25 .
 
-km-dev:PredicateObjectMap_34ec1eaf-127d-4807-b811-6f2670127bfe rr:objectMap _:node1act6h098x7 .
+km-dev:PredicateObjectMap_49f341df-66f9-4923-b35b-4f6ae426e99c rr:objectMap _:node1actf8g53x25 .
 
-km-dev:TriplesMap_65755524-0865-4d2a-9844-742348ff4c1b rr:predicateObjectMap km-dev:PredicateObjectMap_34ec1eaf-127d-4807-b811-6f2670127bfe .
+km-dev:TriplesMap_f9821c7e-4cb1-49ed-9804-bee53826d573 rr:predicateObjectMap km-dev:PredicateObjectMap_49f341df-66f9-4923-b35b-4f6ae426e99c .
 
-km-dev:PredicateObjectMap_34ec1eaf-127d-4807-b811-6f2670127bfe a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1act6h098x1 .
+km-dev:PredicateObjectMap_49f341df-66f9-4923-b35b-4f6ae426e99c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
 
-_:node1act6h098x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_34ec1eaf-127d-4807-b811-6f2670127bfe .
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_49f341df-66f9-4923-b35b-4f6ae426e99c .
 
-km-dev:PredicateObjectMap_eb937b85-6d24-4748-8d71-a3674ce8fedd rr:predicate schema:mainEntityOfPage .
+km-dev:PredicateObjectMap_0c00c0cd-c244-41d3-8999-a75252d3040c rr:predicate schema:availableAtOrFrom .
 
-km-dev:RefObjectMap_ca8a79b0-3cd8-42dd-8209-610593761b50 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_ecb5cde9-9b5e-40fb-a65c-381f3de24ccf ;
-	km-dev:isPartOfMapping _:node1act6h098x1 .
+km-dev:RefObjectMap_e0e72e5c-36f7-4d3e-bcdb-584a661b3df5 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_9c6910c1-50d2-4cdd-a64f-2799181d1884 ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
 
-_:node1act6h098x1 km-dev:hasObjectMap km-dev:RefObjectMap_ca8a79b0-3cd8-42dd-8209-610593761b50 .
+_:node1actf8g53x1 km-dev:hasObjectMap km-dev:RefObjectMap_e0e72e5c-36f7-4d3e-bcdb-584a661b3df5 .
 
-km-dev:PredicateObjectMap_eb937b85-6d24-4748-8d71-a3674ce8fedd rr:objectMap km-dev:RefObjectMap_ca8a79b0-3cd8-42dd-8209-610593761b50 .
+km-dev:PredicateObjectMap_0c00c0cd-c244-41d3-8999-a75252d3040c rr:objectMap km-dev:RefObjectMap_e0e72e5c-36f7-4d3e-bcdb-584a661b3df5 .
 
-km-dev:TriplesMap_65755524-0865-4d2a-9844-742348ff4c1b rr:predicateObjectMap km-dev:PredicateObjectMap_eb937b85-6d24-4748-8d71-a3674ce8fedd .
+km-dev:TriplesMap_f9821c7e-4cb1-49ed-9804-bee53826d573 rr:predicateObjectMap km-dev:PredicateObjectMap_0c00c0cd-c244-41d3-8999-a75252d3040c .
 
-km-dev:PredicateObjectMap_eb937b85-6d24-4748-8d71-a3674ce8fedd a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1act6h098x1 .
+km-dev:PredicateObjectMap_0c00c0cd-c244-41d3-8999-a75252d3040c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
 
-_:node1act6h098x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_eb937b85-6d24-4748-8d71-a3674ce8fedd .
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0c00c0cd-c244-41d3-8999-a75252d3040c .
 
-km-dev:PredicateObjectMap_6ac9b8c2-5a70-47a3-8ca5-d0d467b5cb27 rr:predicate schema:name .
+km-dev:PredicateObjectMap_adf12122-61ac-462e-8378-0887c7ddc326 rr:predicate schema:category .
 
-_:node1act6h098x8 rr:column "[\"slot0009\",\"extract\"]" ;
+_:node1actf8g53x26 rr:column "[\"slot0805\",\"extract\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1act6h098x1 .
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
 
-_:node1act6h098x1 km-dev:hasObjectMap _:node1act6h098x8 .
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x26 .
 
-km-dev:PredicateObjectMap_6ac9b8c2-5a70-47a3-8ca5-d0d467b5cb27 rr:objectMap _:node1act6h098x8 .
+km-dev:PredicateObjectMap_adf12122-61ac-462e-8378-0887c7ddc326 rr:objectMap _:node1actf8g53x26 .
 
-km-dev:TriplesMap_65755524-0865-4d2a-9844-742348ff4c1b rr:predicateObjectMap km-dev:PredicateObjectMap_6ac9b8c2-5a70-47a3-8ca5-d0d467b5cb27 .
+km-dev:TriplesMap_f9821c7e-4cb1-49ed-9804-bee53826d573 rr:predicateObjectMap km-dev:PredicateObjectMap_adf12122-61ac-462e-8378-0887c7ddc326 .
 
-km-dev:PredicateObjectMap_6ac9b8c2-5a70-47a3-8ca5-d0d467b5cb27 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1act6h098x1 .
+km-dev:PredicateObjectMap_adf12122-61ac-462e-8378-0887c7ddc326 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
 
-_:node1act6h098x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6ac9b8c2-5a70-47a3-8ca5-d0d467b5cb27 .
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_adf12122-61ac-462e-8378-0887c7ddc326 .
 
-km-dev:TriplesMap_c492fbce-6a94-4b33-a0b7-99ae3350758a a rr:TriplesMap .
+km-dev:PredicateObjectMap_9d6fff18-1098-4443-b8bc-52bd6a5200b2 rr:predicate schema:description .
 
-_:node1act6h098x1 km-dev:hasTriplesMap km-dev:TriplesMap_c492fbce-6a94-4b33-a0b7-99ae3350758a .
+_:node1actf8g53x27 rr:column "[\"slot1025\",\"extract\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
 
-km-dev:TriplesMap_c492fbce-6a94-4b33-a0b7-99ae3350758a km-dev:isPartOfMapping _:node1act6h098x1 .
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x27 .
 
-_:node1act6h098x9 rr:tableName "test-extractions.json" ;
+km-dev:PredicateObjectMap_9d6fff18-1098-4443-b8bc-52bd6a5200b2 rr:objectMap _:node1actf8g53x27 .
+
+km-dev:TriplesMap_f9821c7e-4cb1-49ed-9804-bee53826d573 rr:predicateObjectMap km-dev:PredicateObjectMap_9d6fff18-1098-4443-b8bc-52bd6a5200b2 .
+
+km-dev:PredicateObjectMap_9d6fff18-1098-4443-b8bc-52bd6a5200b2 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9d6fff18-1098-4443-b8bc-52bd6a5200b2 .
+
+km-dev:PredicateObjectMap_6b3d8545-1959-42c4-8540-8184fae1ceab rr:predicate schema:itemOffered .
+
+km-dev:RefObjectMap_6a7b70fd-15e1-4598-98f2-f0301824230a a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_c5de21fd-30b3-493e-8b6b-4ca1a7e0ae8e ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasObjectMap km-dev:RefObjectMap_6a7b70fd-15e1-4598-98f2-f0301824230a .
+
+km-dev:PredicateObjectMap_6b3d8545-1959-42c4-8540-8184fae1ceab rr:objectMap km-dev:RefObjectMap_6a7b70fd-15e1-4598-98f2-f0301824230a .
+
+km-dev:TriplesMap_f9821c7e-4cb1-49ed-9804-bee53826d573 rr:predicateObjectMap km-dev:PredicateObjectMap_6b3d8545-1959-42c4-8540-8184fae1ceab .
+
+km-dev:PredicateObjectMap_6b3d8545-1959-42c4-8540-8184fae1ceab a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6b3d8545-1959-42c4-8540-8184fae1ceab .
+
+km-dev:PredicateObjectMap_5d387703-a187-4b0e-af29-5a0ed13ab69c rr:predicate schema:mainEntityOfPage .
+
+km-dev:RefObjectMap_d0d57354-d1ce-4223-adeb-556c11b46511 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_e83c6d7f-c665-41f5-98e9-d7187c6ada6e ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasObjectMap km-dev:RefObjectMap_d0d57354-d1ce-4223-adeb-556c11b46511 .
+
+km-dev:PredicateObjectMap_5d387703-a187-4b0e-af29-5a0ed13ab69c rr:objectMap km-dev:RefObjectMap_d0d57354-d1ce-4223-adeb-556c11b46511 .
+
+km-dev:TriplesMap_f9821c7e-4cb1-49ed-9804-bee53826d573 rr:predicateObjectMap km-dev:PredicateObjectMap_5d387703-a187-4b0e-af29-5a0ed13ab69c .
+
+km-dev:PredicateObjectMap_5d387703-a187-4b0e-af29-5a0ed13ab69c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5d387703-a187-4b0e-af29-5a0ed13ab69c .
+
+km-dev:PredicateObjectMap_fb15a363-fe49-499e-818b-52eabda9b040 rr:predicate schema:name .
+
+_:node1actf8g53x28 rr:column "[\"slot0009\",\"extract\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x28 .
+
+km-dev:PredicateObjectMap_fb15a363-fe49-499e-818b-52eabda9b040 rr:objectMap _:node1actf8g53x28 .
+
+km-dev:TriplesMap_f9821c7e-4cb1-49ed-9804-bee53826d573 rr:predicateObjectMap km-dev:PredicateObjectMap_fb15a363-fe49-499e-818b-52eabda9b040 .
+
+km-dev:PredicateObjectMap_fb15a363-fe49-499e-818b-52eabda9b040 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_fb15a363-fe49-499e-818b-52eabda9b040 .
+
+km-dev:PredicateObjectMap_491825ad-e008-427f-b700-b7d01cf71132 rr:predicate schema:price .
+
+_:node1actf8g53x29 rr:column "[\"slot0988\",\"extract\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x29 .
+
+km-dev:PredicateObjectMap_491825ad-e008-427f-b700-b7d01cf71132 rr:objectMap _:node1actf8g53x29 .
+
+km-dev:TriplesMap_f9821c7e-4cb1-49ed-9804-bee53826d573 rr:predicateObjectMap km-dev:PredicateObjectMap_491825ad-e008-427f-b700-b7d01cf71132 .
+
+km-dev:PredicateObjectMap_491825ad-e008-427f-b700-b7d01cf71132 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_491825ad-e008-427f-b700-b7d01cf71132 .
+
+km-dev:TriplesMap_9c6910c1-50d2-4cdd-a64f-2799181d1884 a rr:TriplesMap .
+
+_:node1actf8g53x1 km-dev:hasTriplesMap km-dev:TriplesMap_9c6910c1-50d2-4cdd-a64f-2799181d1884 .
+
+km-dev:TriplesMap_9c6910c1-50d2-4cdd-a64f-2799181d1884 km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x30 rr:tableName "test-extractions.json" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1act6h098x1 .
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
 
-_:node1act6h098x1 km-dev:hasLogicalTable _:node1act6h098x9 .
+_:node1actf8g53x1 km-dev:hasLogicalTable _:node1actf8g53x30 .
 
-km-dev:TriplesMap_c492fbce-6a94-4b33-a0b7-99ae3350758a rr:logicalTable _:node1act6h098x9 ;
-	rr:subjectMap _:node1act6h098x10 .
+km-dev:TriplesMap_9c6910c1-50d2-4cdd-a64f-2799181d1884 rr:logicalTable _:node1actf8g53x30 ;
+	rr:subjectMap _:node1actf8g53x31 .
 
-_:node1act6h098x1 km-dev:hasSubjectMap _:node1act6h098x10 .
+_:node1actf8g53x1 km-dev:hasSubjectMap _:node1actf8g53x31 .
 
-_:node1act6h098x10 km-dev:isPartOfMapping _:node1act6h098x1 ;
+_:node1actf8g53x31 km-dev:isPartOfMapping _:node1actf8g53x1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://schema.org/Place1" ;
 	rr:class schema:Place ;
 	rr:termType rr:BlankNode ;
 	km-dev:namePrefix "schema:Place1" .
 
-km-dev:PredicateObjectMap_6da76932-c820-4fc5-a48d-75116a10ba99 rr:predicate schema:name .
+km-dev:PredicateObjectMap_0b24fcbd-facf-4406-8c9d-5349d3136feb rr:predicate schema:name .
 
-_:node1act6h098x11 rr:column "[\"slot1057\",\"extract\"]" ;
+_:node1actf8g53x32 rr:column "[\"slot1057\",\"extract\"]" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1act6h098x1 .
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
 
-_:node1act6h098x1 km-dev:hasObjectMap _:node1act6h098x11 .
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x32 .
 
-km-dev:PredicateObjectMap_6da76932-c820-4fc5-a48d-75116a10ba99 rr:objectMap _:node1act6h098x11 .
+km-dev:PredicateObjectMap_0b24fcbd-facf-4406-8c9d-5349d3136feb rr:objectMap _:node1actf8g53x32 .
 
-km-dev:TriplesMap_c492fbce-6a94-4b33-a0b7-99ae3350758a rr:predicateObjectMap km-dev:PredicateObjectMap_6da76932-c820-4fc5-a48d-75116a10ba99 .
+km-dev:TriplesMap_9c6910c1-50d2-4cdd-a64f-2799181d1884 rr:predicateObjectMap km-dev:PredicateObjectMap_0b24fcbd-facf-4406-8c9d-5349d3136feb .
 
-km-dev:PredicateObjectMap_6da76932-c820-4fc5-a48d-75116a10ba99 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1act6h098x1 .
+km-dev:PredicateObjectMap_0b24fcbd-facf-4406-8c9d-5349d3136feb a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
 
-_:node1act6h098x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6da76932-c820-4fc5-a48d-75116a10ba99 .
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0b24fcbd-facf-4406-8c9d-5349d3136feb .
+
+km-dev:TriplesMap_4d49e76b-7fdd-44cd-bff2-f91a39ef17f6 a rr:TriplesMap .
+
+_:node1actf8g53x1 km-dev:hasTriplesMap km-dev:TriplesMap_4d49e76b-7fdd-44cd-bff2-f91a39ef17f6 .
+
+km-dev:TriplesMap_4d49e76b-7fdd-44cd-bff2-f91a39ef17f6 km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x33 rr:tableName "test-extractions.json" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasLogicalTable _:node1actf8g53x33 .
+
+km-dev:TriplesMap_4d49e76b-7fdd-44cd-bff2-f91a39ef17f6 rr:logicalTable _:node1actf8g53x33 ;
+	rr:subjectMap _:node1actf8g53x34 .
+
+_:node1actf8g53x1 km-dev:hasSubjectMap _:node1actf8g53x34 .
+
+_:node1actf8g53x34 km-dev:isPartOfMapping _:node1actf8g53x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://schema.org/Role1" ;
+	rr:class schema:Role ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "schema:Role1" .
+
+km-dev:PredicateObjectMap_a44abef6-6a14-43e6-9760-465b7ceaec91 rr:predicate schema:startDate .
+
+_:node1actf8g53x35 rr:column "[\"slot1038\",\"extract\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasObjectMap _:node1actf8g53x35 .
+
+km-dev:PredicateObjectMap_a44abef6-6a14-43e6-9760-465b7ceaec91 rr:objectMap _:node1actf8g53x35 .
+
+km-dev:TriplesMap_4d49e76b-7fdd-44cd-bff2-f91a39ef17f6 rr:predicateObjectMap km-dev:PredicateObjectMap_a44abef6-6a14-43e6-9760-465b7ceaec91 .
+
+km-dev:PredicateObjectMap_a44abef6-6a14-43e6-9760-465b7ceaec91 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1actf8g53x1 .
+
+_:node1actf8g53x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a44abef6-6a14-43e6-9760-465b7ceaec91 .
