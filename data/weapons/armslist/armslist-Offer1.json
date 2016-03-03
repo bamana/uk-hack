@@ -1,0 +1,182 @@
+[
+{
+    "a": "http://schema.org/Role",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS547-test-extractions_json-context.json",
+    "startDate": "Registered on 11/21/2010"
+},
+{
+    "availableAtOrFrom": {
+        "a": "http://schema.org/Place",
+        "name": "Battlefield Mo, Springfield, Missouri"
+    },
+    "a": "http://schema.org/Offer",
+    "itemOffered": {
+        "a": "http://schema.dig.isi.edu/ontology/Firearm",
+        "caliber": "45 ACP",
+        "category": "Pistol",
+        "firearmAction": "Single Action"
+    },
+    "price": "925",
+    "name": "Sig Sauer 1911 .45 C3",
+    "description": "Sig Sauer 1911 .45 C3. Has two magazines 7+1. This hand gun is in excellent shape. I love shooting it. I've probably fired 200 rounds through it. Financial situation requires that I sell it.",
+    "availabilityStarts": "Monday, November 16, 2015",
+    "mainEntityOfPage": {
+        "a": "http://schema.org/CreativeWork",
+        "identifier": "4865292",
+        "htmlMarkupFragment": [
+            "sig_sauer_1911_45_c3_640.jpg' alt=\"\" width=\"80\" /> <\/div> <\/div> <\/div> <\/div> <\/div> <div",
+            "span>Handguns<\/span> <\/li> <li> <span style=\"text-transform: uppercase;\">Manufacturer<\/span> <span> Sig Sauer <\/span> <\/li> <li> <span style=\"text-transform",
+            "time datetime=\"2015-08-18\" style=\"padding-bottom: 10px;",
+            "sig_sauer_1911_45_c3_640.jpg' alt=\"\" width=\"540\" /> <\/div> <\/div> <\/div> <\/div> <div",
+            "> <\/div> <\/div> <\/div> <\/div>",
+            "\"> <div class=\"message warning\"> <div class=\"message-content\"> This listing has expired. You will no longer be able to contact the seller. <\/div> <\/div>"
+        ],
+        "urlFragment": [
+            "script type=\"",
+            "/2015/11/16/4865292",
+            "Sig+Sauer+1911+.45+C3",
+            "2015/11/16/4865292",
+            "/4865292/springfield-missouri-handguns",
+            "sig-sauer-1911--45-c3",
+            "sig_sauer_1911_45_c3"
+        ]
+    },
+    "category": "Handguns",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS547-test-extractions_json-context.json"
+},
+{
+    "a": "http://schema.org/Role",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS547-test-extractions_json-context.json",
+    "startDate": "Registered on 10/12/2015"
+},
+{
+    "availableAtOrFrom": {
+        "a": "http://schema.org/Place",
+        "name": "Decatur, Huntsville, Alabama"
+    },
+    "a": "http://schema.org/Offer",
+    "itemOffered": {
+        "a": "http://schema.dig.isi.edu/ontology/Firearm",
+        "caliber": "45 ACP",
+        "category": "Pistol",
+        "firearmAction": "Single Action"
+    },
+    "price": "800",
+    "name": "Colt Officer&#39;s ACP Shooter&#39;s Package",
+    "description": "Bought new in 1991 after returning to Fort Bragg from Desert Storm. Original box and 2 original Colt mags, 4 spare mags and 2 spare full size mags. Dual mag carrier and 2 holsters. New recoil spring and plug. Well cared for.",
+    "availabilityStarts": "Wednesday, March 2, 2016",
+    "mainEntityOfPage": {
+        "a": "http://schema.org/CreativeWork",
+        "identifier": "5230977",
+        "htmlMarkupFragment": [
+            "colt_officer_s_acp_shooter_s_p_640.jpg' alt=\"\" width=\"80\" /> <\/div> <\/div> <\/div> <\/div> <\/div> <div",
+            "time datetime=\"2015-08-18\" style=\"padding-bottom: 10px;",
+            "colt_officer_s_acp_shooter_s_p_640.jpg' alt=\"\" width=\"540\" /> <\/div> <\/div> <\/div> <\/div> <div",
+            "> <\/div> <\/div> <\/div> <\/div>",
+            "\">",
+            "span>Handguns<\/span> <\/li> <li> <span style=\"text-transform: uppercase;\">Manufacturer<\/span> <span> Colt <\/span> <\/li> <li> <span style=\"text-transform"
+        ],
+        "urlFragment": [
+            "/5230977/huntsville-alabama-handguns",
+            "colt_officer_s_acp_shooter_s_p",
+            "a href=\"#\" data-toggle=\"modal\" data-target=\"#contactSellerEmailModal\" onclick=\" getMessage(this) \" data-href=\"/posts/5230977/message/new\" class=\"btn btn-default\">CONTACT SELLER<\/a> <script type=\"",
+            "2016/03/02/5230977",
+            "/2016/03/02/5230977",
+            "Colt+Officer%27s+ACP+Shooter%27s+Package",
+            "colt-officer-s-acp-shooter-s-package"
+        ]
+    },
+    "category": "Handguns",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS547-test-extractions_json-context.json"
+},
+{
+    "a": "http://schema.org/Role",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS547-test-extractions_json-context.json",
+    "startDate": "Unregistered"
+},
+{
+    "availableAtOrFrom": {
+        "a": "http://schema.org/Place",
+        "name": "Middletown, Delaware, United States"
+    },
+    "a": "http://schema.org/Offer",
+    "itemOffered": {
+        "a": "http://schema.dig.isi.edu/ontology/Firearm",
+        "caliber": "22 Long Rifle",
+        "category": "Rifle",
+        "firearmAction": "Semi-automatic"
+    },
+    "price": "500",
+    "name": "Colt 22",
+    "description": "colt 22 new never fired still in box",
+    "availabilityStarts": "Wednesday, March 2, 2016",
+    "mainEntityOfPage": {
+        "a": "http://schema.org/CreativeWork",
+        "identifier": "5230932",
+        "htmlMarkupFragment": [
+            "colt_22_640.jpg' alt=\"\" width=\"540\" /> <\/div> <\/div> <\/div> <\/div> <div",
+            "div class=\"alert alert-danger",
+            "colt_22_640.jpg' alt=\"\" width=\"80\" /> <\/div> <\/div> <\/div> <\/div> <\/div> <div",
+            "> <\/div> <\/div> <\/div> <\/div>",
+            "\">",
+            "span>Rifles<\/span> <\/li> <li> <span style=\"text-transform: uppercase;\">Manufacturer<\/span> <span> Colt <\/span> <\/li> <li> <span style=\"text-transform"
+        ],
+        "urlFragment": [
+            "2016/03/02/5230932",
+            "colt_22",
+            "colt-22",
+            "Colt+22",
+            "a href=\"#\" data-toggle=\"modal\" data-target=\"#contactSellerEmailModal\" onclick=\" getMessage(this) \" data-href=\"/posts/5230932/message/new\" class=\"btn btn-default\">CONTACT SELLER<\/a> <script type=\"",
+            "/2016/03/02/5230932",
+            "/5230932/delaware-rifles"
+        ]
+    },
+    "category": "Rifles",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS547-test-extractions_json-context.json"
+},
+{
+    "a": "http://schema.org/Role",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS547-test-extractions_json-context.json",
+    "startDate": "Registered on 11/19/2015"
+},
+{
+    "availableAtOrFrom": {
+        "a": "http://schema.org/Place",
+        "name": "Dover, Delaware, United States"
+    },
+    "a": "http://schema.org/Offer",
+    "itemOffered": {
+        "a": "http://schema.dig.isi.edu/ontology/Firearm",
+        "caliber": "223/5.56 NATO",
+        "category": "Rifle",
+        "firearmAction": "Semi-automatic"
+    },
+    "price": "1,000",
+    "name": "Custom built Complete AR-15 Upper (minus BCG/Bipod/optics)",
+    "description": "I assembled this upper from scratch along the lines of the Mk12 platform. Put a lot of thought and research into it. I have all the papers to back up these specs: VLTOR LOW PROFILE GAS BLOCK-STAINLESS LANCER SYSTEMS FREE FLOATING, CARBON FIBER HANDGUARD, RIFLE LENGTH with 3 rail segments. (2-2 inch segments, 1-4 inch segment) WILSON COMBAT MATCH GRADE STAINLESS SPR BARREL, 5.56 NATO, 18&rdquo; 1-7 TWIST DANIEL DEFENSE MUZZLE CLIME MITIGATOR EXTENDED &frac12;-28 VOODOO INNOVATIONS LIFECOAT RIFLE LENGTH GAS TUBE WHITE OAK ARMS A4 UPPER RECIEVER WITH M4 RAMPS The barrel has less than 1000 rounds through it. The only real defects are where I had to shave off some metal on the rear of the receiver so it would fit on my lower as well as some very minor wear. BIPOD, OPTICS/MOUNT AND BCG not included.",
+    "availabilityStarts": "Wednesday, March 2, 2016",
+    "mainEntityOfPage": {
+        "a": "http://schema.org/CreativeWork",
+        "identifier": "4866056",
+        "htmlMarkupFragment": [
+            "custom_built_ar_15_upper_recei_640.jpg' alt=\"\" width=\"80\" /> <\/div> <div class=\"item\"> <img class=\"gallery\" src='https://s3.amazonaws.com/mgm-content/sites/armslist/uploads/posts/2015/11/16/4866056_02_custom_built_complete_ar_15_up_640.jpg' alt=\"\" width=\"80\" /> <\/div> <div class=\"item\"> <img class=\"gallery\" src='https://s3.amazonaws.com/mgm-content/sites/armslist/uploads/posts/2015/11/16/4866056_03_custom_built_complete_ar_15_up_640.jpg' alt=\"\" width=\"80\" /> <\/div> <\/div> <\/div> <\/div> <\/div> <div",
+            "span>Rifles<\/span> <\/li> <li> <span style=\"text-transform",
+            "time datetime=\"2015-08-18\" style=\"padding-bottom: 10px;",
+            "custom_built_ar_15_upper_recei_640.jpg' alt=\"\" width=\"540\" /> <\/div> <div class=\"item\"> <img class=\"gallery\" src='https://s3.amazonaws.com/mgm-content/sites/armslist/uploads/posts/2015/11/16/4866056_02_custom_built_complete_ar_15_up_640.jpg' alt=\"\" width=\"540\" /> <\/div> <div class=\"item\"> <img class=\"gallery\" src='https://s3.amazonaws.com/mgm-content/sites/armslist/uploads/posts/2015/11/16/4866056_03_custom_built_complete_ar_15_up_640.jpg' alt=\"\" width=\"540\" /> <\/div> <\/div> <\/div> <\/div> <div",
+            "> <\/div> <\/div> <\/div> <\/div>",
+            "\">"
+        ],
+        "urlFragment": [
+            "custom-built-complete-ar-15-upper--minus-bcg-bipod-optics-",
+            "2015/11/16/4866056",
+            "/2015/11/16/4866056",
+            "/4866056/delaware-rifles",
+            "a href=\"#\" data-toggle=\"modal\" data-target=\"#contactSellerEmailModal\" onclick=\" getMessage(this) \" data-href=\"/posts/4866056/message/new\" class=\"btn btn-default\">CONTACT SELLER<\/a> <script type=\"",
+            "custom_built_ar_15_upper_recei",
+            "Custom+built+Complete+AR-15+Upper+(minus+BCG%2fBipod%2foptics)"
+        ]
+    },
+    "category": "Rifles",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS547-test-extractions_json-context.json"
+}
+]
